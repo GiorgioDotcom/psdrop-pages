@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T22:22:48.569Z",
+  "generatedAt": "2026-10-21T22:24:55.174Z",
   "lastCheckAt": null,
-  "lastDiscoverAt": "2026-10-21T22:22:35.035Z",
+  "lastDiscoverAt": "2026-10-21T22:24:54.989Z",
   "games": [
     {
       "id": 1,
@@ -36,6 +36,32 @@
       "minEverCents": null,
       "alternatives": [],
       "pending": []
+    },
+    {
+      "id": 4,
+      "name": "Red Dead Redemption 2",
+      "status": "wanted",
+      "aliases": [],
+      "coverUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA08519_00/12/i_3da1cf7c41dc7652f9b639e1680d96436773658668c7dc3930c441291095713b/i/icon0.png",
+      "best": null,
+      "minEverCents": null,
+      "alternatives": [],
+      "pending": [
+        {
+          "productId": "EP1004-CUSA08519_00-REDEMPTIONFULL02",
+          "name": "Red Dead Redemption 2",
+          "coverUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA08519_00/12/i_3da1cf7c41dc7652f9b639e1680d96436773658668c7dc3930c441291095713b/i/icon0.png",
+          "url": "https://store.playstation.com/it-it/product/EP1004-CUSA08519_00-REDEMPTIONFULL02",
+          "matchedOn": "Red Dead Redemption 2: modalità Storia"
+        },
+        {
+          "productId": "EP1004-CUSA36843_00-REDDEADREDEMPBDL",
+          "name": "Red Dead Redemption (PS4 e PS5) e Red Dead Redemption 2 (PS4) [Bundle]",
+          "coverUrl": null,
+          "url": "https://store.playstation.com/it-it/product/EP1004-CUSA36843_00-REDDEADREDEMPBDL",
+          "matchedOn": "Red Dead Redemption 2: modalità Storia"
+        }
+      ]
     }
   ],
   "products": {},
