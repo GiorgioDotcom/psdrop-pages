@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T22:20:13.616Z",
+  "generatedAt": "2026-10-21T22:22:35.250Z",
   "lastCheckAt": null,
-  "lastDiscoverAt": null,
+  "lastDiscoverAt": "2026-10-21T22:22:35.035Z",
   "games": [
     {
       "id": 1,
@@ -25,6 +25,32 @@
       "minEverCents": null,
       "alternatives": [],
       "pending": []
+    },
+    {
+      "id": 3,
+      "name": "Red Dead Redemption",
+      "status": "wanted",
+      "aliases": [],
+      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202307/3122/a80d9414adcf7ec66083e0eca615f0c8705aa89ced821d4e.png",
+      "best": null,
+      "minEverCents": null,
+      "alternatives": [],
+      "pending": [
+        {
+          "productId": "EP1004-CUSA36843_00-REDDEADREDEMPBDL",
+          "name": "Red Dead Redemption (PS4 e PS5) e Red Dead Redemption 2 (PS4) [Bundle]",
+          "coverUrl": null,
+          "url": "https://store.playstation.com/it-it/product/EP1004-CUSA36843_00-REDDEADREDEMPBDL",
+          "matchedOn": "Red Dead Redemption"
+        },
+        {
+          "productId": "EP1004-PPSA30523_00-REDEMPTION000001",
+          "name": "Red Dead Redemption (PS4 & PS5)",
+          "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202307/3122/a80d9414adcf7ec66083e0eca615f0c8705aa89ced821d4e.png",
+          "url": "https://store.playstation.com/it-it/product/EP1004-PPSA30523_00-REDEMPTION000001",
+          "matchedOn": "Red Dead Redemption (PS4 & PS5)"
+        }
+      ]
     }
   ],
   "products": {},
