@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T22:24:59.641Z",
+  "generatedAt": "2026-10-21T22:25:03.199Z",
   "lastCheckAt": null,
   "lastDiscoverAt": "2026-10-21T22:24:54.989Z",
   "games": [
@@ -46,15 +46,7 @@
       "best": null,
       "minEverCents": null,
       "alternatives": [],
-      "pending": [
-        {
-          "productId": "EP1004-CUSA36843_00-REDDEADREDEMPBDL",
-          "name": "Red Dead Redemption (PS4 e PS5) e Red Dead Redemption 2 (PS4) [Bundle]",
-          "coverUrl": null,
-          "url": "https://store.playstation.com/it-it/product/EP1004-CUSA36843_00-REDDEADREDEMPBDL",
-          "matchedOn": "Red Dead Redemption 2: modalità Storia"
-        }
-      ]
+      "pending": []
     }
   ],
   "products": {},
