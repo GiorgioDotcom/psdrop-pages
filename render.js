@@ -64,7 +64,10 @@ export function chartPath(points, width, height) {
 
 const EDITION_WORDS = "(?:Gold|Deluxe|Ultimate|Complete|Definitive|Premium|Standard|Digital|Special|Legendary|Anniversary|Royal|Enhanced|Champions|Cross-Gen|Next-Gen|Day One|Launch|Collector'?s|Game of the Year|GOTY)";
 
-/** "Hogwarts Legacy per PS5" → "Hogwarts Legacy": the game name the bot can match, out of a store edition title. */
+/**
+ * "Hogwarts Legacy per PS5" → "Hogwarts Legacy": the game name the bot can match, out of a store edition title.
+ * Same function as cleanStoreTitle in src/matching.ts; tests/matching.test.ts runs both copies over the same cases.
+ */
 export function cleanStoreTitle(name) {
   let t = String(name ?? '').replace(/[™®]/g, '');
   t = t.replace(/\s*\((?:PS4|PS5)[^)]*\)\s*/gi, ' ');
