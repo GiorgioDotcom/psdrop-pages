@@ -2,6 +2,9 @@
 // Every action control carries data-send (a string the bot understands), data-url (a store link)
 // or data-nav (a route); app.js only reads those attributes.
 
+/** The bot's @username, shown in hints and in the fallback text outside Telegram (switchInlineQuery itself needs no name). */
+export const BOT_USERNAME = 'psdrop_giorgio_bot';
+
 export function esc(s) {
   return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
@@ -237,7 +240,7 @@ export function renderAdd() {
   <form id="add-form" autocomplete="off">
     <input id="add-name" class="field" type="text" placeholder="Nome del gioco (es. Silent Hill f)" required>
     <button class="btn inline" type="button" data-inline="add-name">🔍 Cerca con le copertine</button>
-    <p class="muted">Apre la chat con <code>@psdrop_bot</code> e il nome già scritto: Telegram mostra i giochi dello store con la copertina, tocchi quello giusto e parte <code>/add</code>.</p>
+    <p class="muted">Apre la chat con <code>@${BOT_USERNAME}</code> e il nome già scritto: Telegram mostra i giochi dello store con la copertina, tocchi quello giusto e parte <code>/add</code>.</p>
     <div class="seg"><label><input type="radio" name="add-status" value="wanted" checked><span>Lo voglio</span></label><label><input type="radio" name="add-status" value="owned"><span>Ce l'ho già</span></label></div>
     <p class="muted">Un gioco posseduto non riceve avvisi ma conta come zavorra nei bundle.</p>
     <div class="label">Opzionale</div>

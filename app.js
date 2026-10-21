@@ -1,6 +1,6 @@
 // DOM + Telegram wiring. Routing by location.hash; rendering by render.js; actions by data-* attributes
 // (data-send: a string for the bot, data-url: a store link, data-nav: a route, data-inline: the field whose text goes to inline mode).
-import { renderAdd, renderDeals, renderDetail, renderError, renderList, renderShowcase, renderUpdated } from './render.js';
+import { BOT_USERNAME, renderAdd, renderDeals, renderDetail, renderError, renderList, renderShowcase, renderUpdated } from './render.js';
 
 // telegram-web-app.js defines window.Telegram.WebApp in any browser; only a real client reports a platform.
 const webApp = window.Telegram && window.Telegram.WebApp ? window.Telegram.WebApp : null;
@@ -34,7 +34,7 @@ function inlineSearch(fieldId) {
   if (tg && typeof tg.switchInlineQuery === 'function') {
     try { tg.switchInlineQuery(name); return; } catch { /* client troppo vecchio: ripiego sul testo */ }
   }
-  window.prompt('Scrivi questo nella chat del bot per vedere i giochi con la copertina:', `@psdrop_bot ${name}`.trim());
+  window.prompt('Scrivi questo nella chat del bot per vedere i giochi con la copertina:', `@${BOT_USERNAME} ${name}`.trim());
 }
 
 function openUrl(url) {
