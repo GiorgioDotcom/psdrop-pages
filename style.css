@@ -81,6 +81,7 @@ h1 { font-size: 22px; margin: 6px 0 12px; }
 .btn.ok { background: #0d4a2a; color: var(--green); }
 .btn.no { background: #4a1414; color: var(--red); }
 .btn.small { flex: none; padding: 5px 9px; font-size: 12px; }
+.btn.inline { display: block; width: 100%; margin: 4px 0 6px; background: #12325a; color: var(--text); }
 .cardact { margin-top: 5px; display: flex; gap: 6px; align-items: center; }
 .mainbtn { display: block; width: 100%; margin-top: 14px; background: var(--blue); color: #fff; text-align: center; padding: 14px; border-radius: 12px; font-weight: 600; font-size: 16px; }
 body.tg .mainbtn[data-nav="add"], body.tg .mainbtn[type="submit"] { display: none; }

@@ -236,7 +236,8 @@ export function renderAdd() {
   return `<h1>Aggiungi un gioco</h1>
   <form id="add-form" autocomplete="off">
     <input id="add-name" class="field" type="text" placeholder="Nome del gioco (es. Silent Hill f)" required>
-    <p class="muted">Vuoi scegliere dalle copertine? In chat scrivi <code>@</code> seguito dal nome del bot e dal gioco (es. <code>@psdrop_bot silent hil</code>) e tocca un risultato.</p>
+    <button class="btn inline" type="button" data-inline="add-name">🔍 Cerca con le copertine</button>
+    <p class="muted">Apre la chat con <code>@psdrop_bot</code> e il nome già scritto: Telegram mostra i giochi dello store con la copertina, tocchi quello giusto e parte <code>/add</code>.</p>
     <div class="seg"><label><input type="radio" name="add-status" value="wanted" checked><span>Lo voglio</span></label><label><input type="radio" name="add-status" value="owned"><span>Ce l'ho già</span></label></div>
     <p class="muted">Un gioco posseduto non riceve avvisi ma conta come zavorra nei bundle.</p>
     <div class="label">Opzionale</div>

@@ -1,4 +1,5 @@
-// DOM + Telegram wiring. Routing by location.hash; rendering by render.js; actions by data-* attributes.
+// DOM + Telegram wiring. Routing by location.hash; rendering by render.js; actions by data-* attributes
+// (data-send: a string for the bot, data-url: a store link, data-nav: a route, data-inline: the field whose text goes to inline mode).
 import { renderAdd, renderDeals, renderDetail, renderError, renderList, renderShowcase, renderUpdated } from './render.js';
 
 // telegram-web-app.js defines window.Telegram.WebApp in any browser; only a real client reports a platform.
@@ -22,6 +23,18 @@ function send(text) {
     return;
   }
   window.prompt('Fuori da Telegram non posso parlare col bot. Copia e manda in chat:', text);
+}
+
+/**
+ * Hands the typed name to the bot's inline mode: Telegram closes the Mini App and puts "@bot <name>" in the chat box,
+ * where the store results appear with their covers. Without the method (old client, plain browser) show the text to type.
+ */
+function inlineSearch(fieldId) {
+  const name = (document.getElementById(fieldId)?.value || '').trim();
+  if (tg && typeof tg.switchInlineQuery === 'function') {
+    try { tg.switchInlineQuery(name); return; } catch { /* client troppo vecchio: ripiego sul testo */ }
+  }
+  window.prompt('Scrivi questo nella chat del bot per vedere i giochi con la copertina:', `@psdrop_bot ${name}`.trim());
 }
 
 function openUrl(url) {
@@ -98,9 +111,10 @@ function render() {
 }
 
 document.addEventListener('click', (ev) => {
-  const el = ev.target.closest('[data-send], [data-url], [data-nav]');
+  const el = ev.target.closest('[data-send], [data-url], [data-nav], [data-inline]');
   if (!el) return;
   if (el.dataset.send) { ev.preventDefault(); send(el.dataset.send); return; }
+  if (el.dataset.inline) { ev.preventDefault(); inlineSearch(el.dataset.inline); return; }
   if (el.dataset.url) { ev.preventDefault(); openUrl(el.dataset.url); return; }
   if (el.dataset.nav) { ev.preventDefault(); location.hash = '#' + el.dataset.nav; }
 });
