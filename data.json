@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T21:34:39.064Z",
-  "lastCheckAt": "2026-10-21T21:34:20.730Z",
-  "lastDiscoverAt": "2026-10-21T21:34:20.734Z",
+  "generatedAt": "2026-10-21T21:42:00.161Z",
+  "lastCheckAt": "2026-10-21T21:41:43.321Z",
+  "lastDiscoverAt": "2026-10-21T21:41:43.323Z",
   "games": [
     {
       "id": 1,
       "name": "Resident Evil 3",
       "status": "owned",
       "aliases": [],
-      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0206/WmriZBRlSeXWEEDLJOWW7MdW.png",
+      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202205/1307/NliUZLNjF0QGLI6sqvU9n3KM.png",
       "best": null,
       "minEverCents": null,
       "alternatives": [],
@@ -20,7 +20,7 @@
       "name": "Resident Evil 2",
       "status": "owned",
       "aliases": [],
-      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0206/WmriZBRlSeXWEEDLJOWW7MdW.png",
+      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202205/1307/QpeOEfRcYvTWs6oU7vwePeWK.png",
       "best": null,
       "minEverCents": null,
       "alternatives": [],
@@ -29,7 +29,7 @@
   ],
   "products": {},
   "storefront": {
-    "fetchedAt": "2026-10-21T21:34:39.053Z",
+    "fetchedAt": "2026-10-21T21:42:00.110Z",
     "top": [
       {
         "kind": "concept",
@@ -166,8 +166,8 @@
           "EP0101-CUSA26996_00-EDITION000000012",
           "EP0101-CUSA26996_00-EDITION000000014",
           "EP0101-CUSA26996_00-EDITION000000013",
-          "EP0101-PPSA03073_00-EFOOTBALL0000000",
-          "EP0101-CUSA26996_00-EFOOTBALL0000000"
+          "EP0101-CUSA26996_00-EFOOTBALL0000000",
+          "EP0101-PPSA03073_00-EFOOTBALL0000000"
         ],
         "gameId": null
       },
