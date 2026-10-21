@@ -80,7 +80,8 @@ export function cleanStoreTitle(name) {
 /** Store images accept a width: a 48 px cover does not need the 1 MB master. */
 const thumb = (url, w) => (url && !url.includes('?') ? `${url}?w=${w}&thumb=false` : url);
 
-const cover = (url, cls = 'cover') => (url ? `<img class="${cls}" src="${esc(thumb(url, 240))}" alt="" loading="lazy">` : `<div class="${cls} cover-empty"></div>`);
+const initial = (name) => { const m = /[\p{L}\p{N}]/u.exec(String(name ?? '')); return m ? m[0].toUpperCase() : ''; };
+const cover = (url, cls = 'cover', name = '') => (url ? `<img class="${cls}" src="${esc(thumb(url, 240))}" alt="" loading="lazy">` : `<div class="${cls} cover-empty">${esc(initial(name))}</div>`);
 
 const verdictChip = (advice) => {
   if (!advice) return '';
@@ -138,7 +139,7 @@ export function renderList(data, tab = 'wanted') {
   if (tab === 'owned') {
     body = owned.length === 0
       ? empty('Nessun gioco posseduto. Segna quelli che hai: contano come zavorra nei bundle.')
-      : owned.map((g) => `<div class="row" data-nav="detail:${g.id}">${cover(g.best?.coverUrl ?? null)}<div class="t"><div class="name">${esc(g.name)}</div><div class="sub">posseduto</div></div><div class="chev">›</div></div>`).join('');
+      : owned.map((g) => `<div class="row" data-nav="detail:${g.id}">${cover(g.coverUrl ?? g.best?.coverUrl ?? null, 'cover', g.name)}<div class="t"><div class="name">${esc(g.name)}</div><div class="sub">posseduto</div></div><div class="chev">›</div></div>`).join('');
   } else if (tab === 'pending') {
     const rows = [];
     for (const g of data.games) {
@@ -156,7 +157,7 @@ export function renderList(data, tab = 'wanted') {
           const sub = b ? esc(b.name) : 'nessun prezzo ancora';
           const chips = b ? labelChips(b) + verdictChip(b.advice) : '';
           const min = g.minEverCents !== null && b && g.minEverCents < b.priceCents ? `<div class="muted">min ${euro(g.minEverCents)}</div>` : '';
-          return `<div class="row" data-nav="detail:${g.id}">${cover(b?.coverUrl ?? null)}<div class="t"><div class="name">${esc(g.name)}</div><div class="sub">${sub}</div>${chips ? `<div class="chips">${chips}</div>` : ''}</div>${b ? priceBlock(b.priceCents, b.basePriceCents, min) : '<div class="price"><span class="muted">—</span></div>'}</div>`;
+          return `<div class="row" data-nav="detail:${g.id}">${cover(g.coverUrl ?? b?.coverUrl ?? null, 'cover', g.name)}<div class="t"><div class="name">${esc(g.name)}</div><div class="sub">${sub}</div>${chips ? `<div class="chips">${chips}</div>` : ''}</div>${b ? priceBlock(b.priceCents, b.basePriceCents, min) : '<div class="price"><span class="muted">—</span></div>'}</div>`;
         }).join('');
   }
   return `<h1>La tua lista</h1>${tabs}<div class="list">${body}</div><button class="mainbtn" data-nav="add">＋ Aggiungi gioco</button>`;
@@ -190,7 +191,7 @@ export function renderDetail(data, gameId) {
   const g = data.games.find((x) => x.id === Number(gameId));
   if (!g) return `<h1>Dettaglio</h1>${empty('Gioco non trovato.')}<button class="btn" data-nav="list">‹ Lista</button>`;
   const b = g.best;
-  const parts = [`<h1>${esc(g.name)}</h1>`];
+  const parts = [`<div class="head">${cover(g.coverUrl ?? b?.coverUrl ?? null, 'cover big', g.name)}<h1>${esc(g.name)}</h1></div>`];
   if (g.status === 'owned') parts.push('<p class="muted">Segnato come posseduto: niente avvisi, conta come zavorra nei bundle.</p>');
   if (b) {
     const prod = data.products[b.productId];
