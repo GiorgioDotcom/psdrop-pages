@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T22:22:35.250Z",
+  "generatedAt": "2026-10-21T22:22:45.696Z",
   "lastCheckAt": null,
   "lastDiscoverAt": "2026-10-21T22:22:35.035Z",
   "games": [
@@ -42,13 +42,6 @@
           "coverUrl": null,
           "url": "https://store.playstation.com/it-it/product/EP1004-CUSA36843_00-REDDEADREDEMPBDL",
           "matchedOn": "Red Dead Redemption"
-        },
-        {
-          "productId": "EP1004-PPSA30523_00-REDEMPTION000001",
-          "name": "Red Dead Redemption (PS4 & PS5)",
-          "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202307/3122/a80d9414adcf7ec66083e0eca615f0c8705aa89ced821d4e.png",
-          "url": "https://store.playstation.com/it-it/product/EP1004-PPSA30523_00-REDEMPTION000001",
-          "matchedOn": "Red Dead Redemption (PS4 & PS5)"
         }
       ]
     }
@@ -1356,7 +1349,7 @@
         "productIds": [
           "EP1004-PPSA30523_00-REDEMPTION000001"
         ],
-        "gameId": null
+        "gameId": 3
       },
       {
         "kind": "product",
