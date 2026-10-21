@@ -63,19 +63,24 @@ export function chartPath(points, width, height) {
 }
 
 const EDITION_WORDS = "(?:Gold|Deluxe|Ultimate|Complete|Definitive|Premium|Standard|Digital|Special|Legendary|Anniversary|Royal|Enhanced|Champions|Cross-Gen|Next-Gen|Day One|Launch|Collector'?s|Game of the Year|GOTY)";
+const EDITION_LABEL = `(?:Edition|Edizione|Bundle)(?:\\s+(?:${EDITION_WORDS}|Edition|Edizione|Bundle))*`;
 
 /**
  * "Hogwarts Legacy per PS5" → "Hogwarts Legacy": the game name the bot can match, out of a store edition title.
  * Same function as cleanStoreTitle in src/matching.ts; tests/matching.test.ts runs both copies over the same cases.
  */
 export function cleanStoreTitle(name) {
-  let t = String(name ?? '').replace(/[™®]/g, '');
-  t = t.replace(/\s*\((?:PS4|PS5)[^)]*\)\s*/gi, ' ');
+  const raw = String(name ?? '').replace(/\s+/g, ' ').trim();
+  let t = raw.replace(/[™®]/g, '');
+  t = t.replace(/\s*\((?:PS4|PS5|PlayStation\s*[45])[^)]*\)\s*/gi, ' ');
   t = t.replace(/\s*(?:per|for)\s+PS[45](?:\s*(?:e|and|&|\/)\s*PS[45])?\s*$/i, '');
   t = t.replace(/\s*PS[45]\s*(?:e|and|&|\/)\s*PS[45]\s*$/i, '');
-  t = t.replace(/\s*[-–:]\s*[^-–:]*\b(?:Edition|Edizione|Bundle)\b[^-–:]*$/i, '');
+  // a trailing segment after " - ", " – " or ":" that is only an edition label ("- Cross-Gen Bundle", ": Definitive Edition")
+  t = t.replace(new RegExp(`(?:\\s+[-–]\\s+|\\s*:\\s*)(?:The\\s+)?(?:${EDITION_WORDS}\\s+)*${EDITION_LABEL}\\s*$`, 'i'), '');
+  // "Digital Deluxe Edition" glued to the name without a separator
   t = t.replace(new RegExp(`\\s+(?:${EDITION_WORDS}\\s+)+(?:Edition|Edizione)\\b.*$`, 'i'), '');
-  return t.replace(/\s+/g, ' ').trim();
+  const out = t.replace(/\s+/g, ' ').trim();
+  return /[\p{L}\p{N}]/u.test(out) ? out : raw; // never an empty title: a bare separator falls back to the raw name
 }
 
 // ---------- small building blocks ----------
@@ -231,6 +236,7 @@ export function renderAdd() {
   return `<h1>Aggiungi un gioco</h1>
   <form id="add-form" autocomplete="off">
     <input id="add-name" class="field" type="text" placeholder="Nome del gioco (es. Silent Hill f)" required>
+    <p class="muted">Vuoi scegliere dalle copertine? In chat scrivi <code>@</code> seguito dal nome del bot e dal gioco (es. <code>@psdrop_bot silent hil</code>) e tocca un risultato.</p>
     <div class="seg"><label><input type="radio" name="add-status" value="wanted" checked><span>Lo voglio</span></label><label><input type="radio" name="add-status" value="owned"><span>Ce l'ho già</span></label></div>
     <p class="muted">Un gioco posseduto non riceve avvisi ma conta come zavorra nei bundle.</p>
     <div class="label">Opzionale</div>
