@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T21:42:02.187Z",
-  "lastCheckAt": "2026-10-21T21:41:43.321Z",
-  "lastDiscoverAt": "2026-10-21T21:41:43.323Z",
+  "generatedAt": "2026-10-21T21:48:42.338Z",
+  "lastCheckAt": "2026-10-21T21:48:23.752Z",
+  "lastDiscoverAt": "2026-10-21T21:48:23.756Z",
   "games": [
     {
       "id": 1,
       "name": "Resident Evil 3",
       "status": "owned",
       "aliases": [],
-      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202205/1307/NliUZLNjF0QGLI6sqvU9n3KM.png",
+      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0206/WmriZBRlSeXWEEDLJOWW7MdW.png",
       "best": null,
       "minEverCents": null,
       "alternatives": [],
@@ -20,7 +20,7 @@
       "name": "Resident Evil 2",
       "status": "owned",
       "aliases": [],
-      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202205/1307/QpeOEfRcYvTWs6oU7vwePeWK.png",
+      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0204/uDFoGvnMTTCLVmTwjj0njGWC.png",
       "best": null,
       "minEverCents": null,
       "alternatives": [],
@@ -29,7 +29,7 @@
   ],
   "products": {},
   "storefront": {
-    "fetchedAt": "2026-10-21T21:42:02.185Z",
+    "fetchedAt": "2026-10-21T21:48:42.334Z",
     "top": [
       {
         "kind": "concept",
