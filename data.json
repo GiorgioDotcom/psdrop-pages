@@ -1,76 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T21:25:18.932Z",
+  "generatedAt": "2026-10-21T21:27:55.239Z",
   "lastCheckAt": "2026-10-21T21:25:02.652Z",
   "lastDiscoverAt": null,
   "games": [
     {
       "id": 1,
       "name": "Resident Evil 3",
-      "status": "wanted",
+      "status": "owned",
       "aliases": [],
-      "best": {
-        "productId": "EP0102-PPSA03953_00-BH3ROFF000000001",
-        "name": "RESIDENT EVIL 3",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0206/WmriZBRlSeXWEEDLJOWW7MdW.png",
-        "url": "https://store.playstation.com/it-it/product/EP0102-PPSA03953_00-BH3ROFF000000001",
-        "platforms": [
-          "PS4",
-          "PS5"
-        ],
-        "priceCents": 799,
-        "basePriceCents": 3999,
-        "plusPriceCents": null,
-        "offerEndsAt": "2026-11-04T23:59:00.000Z",
-        "perWantedGameCents": 799,
-        "wantedNames": [
-          "Resident Evil 3"
-        ],
-        "others": [
-          "RESIDENT EVIL RESISTANCE"
-        ],
-        "advice": {
-          "verdict": "COMPRA",
-          "reason": "80% di sconto, minimo visto da noi: 7,99 €",
-          "shortHistory": true
-        },
-        "labels": [
-          "minimo"
-        ],
-        "plusCatalogTier": null
-      },
-      "minEverCents": 799,
-      "alternatives": [
-        {
-          "productId": "EP0102-PPSA03953_00-BHB0000000000002",
-          "name": "RACCOON CITY EDITION",
-          "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0206/WmriZBRlSeXWEEDLJOWW7MdW.png",
-          "url": "https://store.playstation.com/it-it/product/EP0102-PPSA03953_00-BHB0000000000002",
-          "priceCents": 1199,
-          "basePriceCents": 5999,
-          "perWantedGameCents": 1199,
-          "others": [
-            "RESIDENT EVIL 2",
-            "RESIDENT EVIL RESISTANCE"
-          ]
-        },
-        {
-          "productId": "EP0102-PPSA07412_00-BHB0000000000003",
-          "name": "Resident Evil Remake Trilogy",
-          "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202207/2509/85p2Dwh5iDhUzRKe40QeNYh3.png",
-          "url": "https://store.playstation.com/it-it/product/EP0102-PPSA07412_00-BHB0000000000003",
-          "priceCents": 2939,
-          "basePriceCents": 6999,
-          "perWantedGameCents": 2939,
-          "others": [
-            "RESIDENT EVIL 2 Deluxe Edition",
-            "RE3 - Pacchetto costumi classici",
-            "Resident Evil Resistance",
-            "Resident Evil 4 Gold Edition",
-            "Resident Evil 4 - The Mercenaries"
-          ]
-        }
-      ],
+      "best": null,
+      "minEverCents": null,
+      "alternatives": [],
       "pending": []
     },
     {
@@ -84,104 +25,7 @@
       "pending": []
     }
   ],
-  "products": {
-    "EP0102-PPSA03953_00-BH3ROFF000000001": {
-      "name": "RESIDENT EVIL 3",
-      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0206/WmriZBRlSeXWEEDLJOWW7MdW.png",
-      "url": "https://store.playstation.com/it-it/product/EP0102-PPSA03953_00-BH3ROFF000000001",
-      "platforms": [
-        "PS4",
-        "PS5"
-      ],
-      "plusCatalogTier": null,
-      "history": [
-        {
-          "at": "2026-10-21T20:31:52.799Z",
-          "priceCents": 799
-        },
-        {
-          "at": "2026-10-21T20:32:03.344Z",
-          "priceCents": 799
-        },
-        {
-          "at": "2026-10-21T20:35:51.666Z",
-          "priceCents": 799
-        },
-        {
-          "at": "2026-10-21T20:37:00.069Z",
-          "priceCents": 799
-        },
-        {
-          "at": "2026-10-21T21:24:51.793Z",
-          "priceCents": 799
-        }
-      ]
-    },
-    "EP0102-PPSA03953_00-BHB0000000000002": {
-      "name": "RACCOON CITY EDITION",
-      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0206/WmriZBRlSeXWEEDLJOWW7MdW.png",
-      "url": "https://store.playstation.com/it-it/product/EP0102-PPSA03953_00-BHB0000000000002",
-      "platforms": [
-        "PS4",
-        "PS5"
-      ],
-      "plusCatalogTier": null,
-      "history": [
-        {
-          "at": "2026-10-21T20:31:52.799Z",
-          "priceCents": 1199
-        },
-        {
-          "at": "2026-10-21T20:32:03.344Z",
-          "priceCents": 1199
-        },
-        {
-          "at": "2026-10-21T20:35:51.666Z",
-          "priceCents": 1199
-        },
-        {
-          "at": "2026-10-21T20:37:00.069Z",
-          "priceCents": 1199
-        },
-        {
-          "at": "2026-10-21T21:24:51.793Z",
-          "priceCents": 1199
-        }
-      ]
-    },
-    "EP0102-PPSA07412_00-BHB0000000000003": {
-      "name": "Resident Evil Remake Trilogy",
-      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202207/2509/85p2Dwh5iDhUzRKe40QeNYh3.png",
-      "url": "https://store.playstation.com/it-it/product/EP0102-PPSA07412_00-BHB0000000000003",
-      "platforms": [
-        "PS4",
-        "PS5"
-      ],
-      "plusCatalogTier": null,
-      "history": [
-        {
-          "at": "2026-10-21T20:31:52.799Z",
-          "priceCents": 2939
-        },
-        {
-          "at": "2026-10-21T20:32:03.344Z",
-          "priceCents": 2939
-        },
-        {
-          "at": "2026-10-21T20:35:51.666Z",
-          "priceCents": 2939
-        },
-        {
-          "at": "2026-10-21T20:37:00.069Z",
-          "priceCents": 2939
-        },
-        {
-          "at": "2026-10-21T21:24:51.793Z",
-          "priceCents": 2939
-        }
-      ]
-    }
-  },
+  "products": {},
   "storefront": {
     "fetchedAt": "2026-10-21T21:25:18.929Z",
     "top": [
