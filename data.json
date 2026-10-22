@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T17:58:15.020Z",
-  "lastCheckAt": "2026-10-22T17:53:31.570Z",
+  "generatedAt": "2026-10-22T23:59:15.651Z",
+  "lastCheckAt": "2026-10-22T23:59:04.913Z",
   "lastDiscoverAt": "2026-10-22T17:58:05.099Z",
   "games": [
     {
@@ -169,6 +169,10 @@
         {
           "at": "2026-10-22T17:53:28.142Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-10-22T23:58:57.862Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -193,6 +197,10 @@
         {
           "at": "2026-10-22T17:53:28.142Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-10-22T23:58:57.862Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -216,12 +224,16 @@
         {
           "at": "2026-10-22T17:53:28.142Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-10-22T23:58:57.862Z",
+          "priceCents": 5999
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-22T17:58:15.017Z",
+    "fetchedAt": "2026-10-22T23:59:15.649Z",
     "top": [
       {
         "kind": "concept",
@@ -797,24 +809,6 @@
         "productIds": [
           "EP2430-PPSA24125_00-0074979166632686",
           "EP2430-PPSA24125_00-0903213055500686"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
-        "id": "10015054",
-        "name": "Transport Fever 3",
-        "url": "https://store.playstation.com/it-it/concept/10015054",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202505/0807/3251bc7c55678139140ebf73908c0e908b935cd396a5762d.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 5999,
-        "basePriceCents": 5999,
-        "discountPct": 0,
-        "plusTier": null,
-        "productIds": [
-          "EP7064-PPSA30479_00-TF30000000000000",
-          "EP7064-PPSA30479_00-TF3DLXEDITION000"
         ],
         "gameId": null
       }
