@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T17:48:41.437Z",
-  "lastCheckAt": null,
+  "generatedAt": "2026-10-22T17:48:55.167Z",
+  "lastCheckAt": "2026-10-22T17:48:43.855Z",
   "lastDiscoverAt": null,
   "games": [
     {
@@ -59,12 +59,24 @@
           "shortHistory": true
         },
         "labels": [
-          "minimo"
+          "minimo",
+          "bundle"
         ],
         "plusCatalogTier": null
       },
       "minEverCents": 3999,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "productId": "EP1004-PPSA30523_00-REDEMPTION000001",
+          "name": "Red Dead Redemption (PS4 & PS5)",
+          "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202307/3122/a80d9414adcf7ec66083e0eca615f0c8705aa89ced821d4e.png",
+          "url": "https://store.playstation.com/it-it/product/EP1004-PPSA30523_00-REDEMPTION000001",
+          "priceCents": 4999,
+          "basePriceCents": 4999,
+          "perWantedGameCents": 4999,
+          "others": []
+        }
+      ],
       "pending": []
     },
     {
@@ -100,7 +112,8 @@
           "shortHistory": true
         },
         "labels": [
-          "minimo"
+          "minimo",
+          "bundle"
         ],
         "plusCatalogTier": null
       },
@@ -144,6 +157,26 @@
         {
           "at": "2026-10-22T15:00:55.327Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-10-22T17:48:39.319Z",
+          "priceCents": 3999
+        }
+      ]
+    },
+    "EP1004-PPSA30523_00-REDEMPTION000001": {
+      "name": "Red Dead Redemption (PS4 & PS5)",
+      "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202307/3122/a80d9414adcf7ec66083e0eca615f0c8705aa89ced821d4e.png",
+      "url": "https://store.playstation.com/it-it/product/EP1004-PPSA30523_00-REDEMPTION000001",
+      "platforms": [
+        "PS4",
+        "PS5"
+      ],
+      "plusCatalogTier": null,
+      "history": [
+        {
+          "at": "2026-10-22T17:48:39.319Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -164,7 +197,7 @@
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-22T15:01:10.934Z",
+    "fetchedAt": "2026-10-22T17:48:55.164Z",
     "top": [
       {
         "kind": "concept",
