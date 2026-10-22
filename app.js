@@ -42,6 +42,21 @@ function openUrl(url) {
   else window.open(url, '_blank', 'noopener');
 }
 
+/** Back: the previous screen when the app has one, else the list. Shared by the in-page link and Telegram's BackButton. */
+function goBack() {
+  if (window.history.length > 1) window.history.back();
+  else location.hash = '#list';
+}
+
+function setBack(visible) {
+  if (!tg || !tg.BackButton) return;
+  try { if (visible) tg.BackButton.show(); else tg.BackButton.hide(); } catch { /* vecchie versioni del client */ }
+}
+
+if (tg && tg.BackButton) {
+  try { tg.BackButton.onClick(goBack); } catch { /* idem */ }
+}
+
 function route() {
   const h = (location.hash || '#list').slice(1);
   const [name, arg] = h.split('/');
@@ -82,7 +97,8 @@ function addSubmit() {
 function render() {
   const r = route();
   for (const b of bar.querySelectorAll('button')) b.classList.toggle('on', b.dataset.nav === (r.name === 'detail' || r.name === 'add' ? 'list' : r.name));
-  if (!data) { view.innerHTML = renderError('Dati non disponibili: riapri tra poco.'); setMain(''); return; }
+  if (!data) { view.innerHTML = renderError('Dati non disponibili: riapri tra poco.'); setMain(''); setBack(false); return; }
+  setBack(r.name === 'detail' || r.name === 'add');
   switch (r.name) {
     case 'detail': {
       view.innerHTML = renderDetail(data, r.arg);
@@ -111,8 +127,9 @@ function render() {
 }
 
 document.addEventListener('click', (ev) => {
-  const el = ev.target.closest('[data-send], [data-url], [data-nav], [data-inline]');
+  const el = ev.target.closest('[data-send], [data-url], [data-nav], [data-inline], [data-back]');
   if (!el) return;
+  if (el.hasAttribute('data-back')) { ev.preventDefault(); goBack(); return; }
   if (el.dataset.send) { ev.preventDefault(); send(el.dataset.send); return; }
   if (el.dataset.inline) { ev.preventDefault(); inlineSearch(el.dataset.inline); return; }
   if (el.dataset.url) { ev.preventDefault(); openUrl(el.dataset.url); return; }

@@ -198,11 +198,16 @@ function chartSvg(points) {
   </svg><div class="chart-legend"><span>${esc(formatDay(sorted[0].at))}</span><span>max ${euro(max)} · min ${euro(min)}</span><span>${esc(formatDay(sorted[sorted.length - 1].at))}</span></div>`;
 }
 
+/** Back control: a link for a normal browser; inside Telegram it is hidden and the native BackButton takes over. */
+export function backLink() {
+  return '<a class="back" href="#list" data-back>‹ Indietro</a>';
+}
+
 export function renderDetail(data, gameId) {
   const g = data.games.find((x) => x.id === Number(gameId));
-  if (!g) return `<h1>Dettaglio</h1>${empty('Gioco non trovato.')}<button class="btn" data-nav="list">‹ Lista</button>`;
+  if (!g) return `${backLink()}<h1>Dettaglio</h1>${empty('Gioco non trovato.')}<button class="btn" data-nav="list">‹ Lista</button>`;
   const b = g.best;
-  const parts = [`<div class="head">${cover(g.coverUrl ?? b?.coverUrl ?? null, 'cover big', g.name)}<h1>${esc(g.name)}</h1></div>`];
+  const parts = [`${backLink()}<div class="head">${cover(g.coverUrl ?? b?.coverUrl ?? null, 'cover big', g.name)}<h1>${esc(g.name)}</h1></div>`];
   if (g.status === 'owned') parts.push('<p class="muted">Segnato come posseduto: niente avvisi, conta come zavorra nei bundle.</p>');
   if (b) {
     const prod = data.products[b.productId];
@@ -236,7 +241,7 @@ export function renderDetail(data, gameId) {
 }
 
 export function renderAdd() {
-  return `<h1>Aggiungi un gioco</h1>
+  return `${backLink()}<h1>Aggiungi un gioco</h1>
   <form id="add-form" autocomplete="off">
     <input id="add-name" class="field" type="text" placeholder="Nome del gioco (es. Silent Hill f)" required>
     <button class="btn inline" type="button" data-inline="add-name">🔍 Cerca con le copertine</button>

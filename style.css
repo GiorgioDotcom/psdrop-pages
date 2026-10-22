@@ -77,6 +77,8 @@ h1 { font-size: 22px; margin: 6px 0 12px; }
 
 .btns { display: flex; gap: 8px; margin-top: 8px; }
 .btns.actions { margin-top: 16px; }
+.back { display: inline-block; margin: 0 0 8px; color: var(--muted); font-size: 14px; text-decoration: none; }
+body.tg .back { display: none; }
 .btn { flex: 1; text-align: center; padding: 9px 10px; border-radius: 10px; background: var(--border); font-weight: 600; font-size: 14px; }
 .btn.ok { background: #0d4a2a; color: var(--green); }
 .btn.no { background: #4a1414; color: var(--red); }
