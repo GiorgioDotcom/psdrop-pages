@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T12:00:41.155Z",
+  "generatedAt": "2026-10-23T17:54:23.451Z",
   "lastCheckAt": "2026-10-23T12:00:29.618Z",
-  "lastDiscoverAt": "2026-10-23T08:33:12.828Z",
+  "lastDiscoverAt": "2026-10-23T17:54:13.707Z",
   "games": [
     {
       "id": 1,
@@ -381,7 +381,7 @@
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-23T12:00:41.152Z",
+    "fetchedAt": "2026-10-23T17:54:23.448Z",
     "top": [
       {
         "kind": "concept",
@@ -1711,6 +1711,25 @@
         "plusTier": "Extra",
         "productIds": [
           "EP9000-CUSA10249_00-THELASTOFUSPART2"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP1004-PPSA01721_00-GTAOSTANDALONE01",
+        "name": "Grand Theft Auto Online (PlayStation®5)",
+        "url": "https://store.playstation.com/it-it/product/EP1004-PPSA01721_00-GTAOSTANDALONE01",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202202/2816/mYn2ETBKFct26V9mJnZi4aSS.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "GAME_BUNDLE",
+        "priceCents": 999,
+        "basePriceCents": 1999,
+        "discountPct": 50,
+        "plusTier": null,
+        "productIds": [
+          "EP1004-PPSA01721_00-GTAOSTANDALONE01"
         ],
         "gameId": null
       },
