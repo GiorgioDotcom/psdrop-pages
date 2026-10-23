@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T08:32:19.628Z",
+  "generatedAt": "2026-10-23T08:33:13.016Z",
   "lastCheckAt": "2026-10-23T06:04:35.544Z",
-  "lastDiscoverAt": "2026-10-23T08:32:12.918Z",
+  "lastDiscoverAt": "2026-10-23T08:33:12.828Z",
   "games": [
     {
       "id": 1,
@@ -144,6 +144,25 @@
       "minEverCents": null,
       "alternatives": [],
       "pending": []
+    },
+    {
+      "id": 6,
+      "name": "Resident Evil Revelations 2",
+      "status": "wanted",
+      "aliases": [],
+      "coverUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA00804_00/2/i_b9c16b24df5dcc1076afeb80defb6be6cea1855da61aa29f0632a580d66fafd7/i/icon0.png",
+      "best": null,
+      "minEverCents": null,
+      "alternatives": [],
+      "pending": [
+        {
+          "productId": "EP0102-CUSA00804_00-BHR2DELUXE000000",
+          "name": "Resident Evil Revelations 2 Deluxe Edition ",
+          "coverUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA00804_00/2/i_b9c16b24df5dcc1076afeb80defb6be6cea1855da61aa29f0632a580d66fafd7/i/icon0.png",
+          "url": "https://store.playstation.com/it-it/product/EP0102-CUSA00804_00-BHR2DELUXE000000",
+          "matchedOn": "Resident Evil Revelations 2 Deluxe Edition "
+        }
+      ]
     }
   ],
   "products": {
