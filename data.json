@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T08:33:14.784Z",
-  "lastCheckAt": "2026-10-23T06:04:35.544Z",
+  "generatedAt": "2026-10-23T08:39:59.423Z",
+  "lastCheckAt": "2026-10-23T08:39:59.337Z",
   "lastDiscoverAt": "2026-10-23T08:33:12.828Z",
   "games": [
     {
@@ -140,8 +140,34 @@
       "status": "wanted",
       "aliases": [],
       "coverUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA06212_00/3/i_5c40c16831bf372318270df308be9323f27a9190542c8f5da4f18d0c0cc58cfb/i/icon0.png",
-      "best": null,
-      "minEverCents": null,
+      "best": {
+        "productId": "EP0102-CUSA06212_00-RERHDPS400000000",
+        "name": "RESIDENT EVIL REVELATIONS",
+        "coverUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA06212_00/3/i_5c40c16831bf372318270df308be9323f27a9190542c8f5da4f18d0c0cc58cfb/i/icon0.png",
+        "url": "https://store.playstation.com/it-it/product/EP0102-CUSA06212_00-RERHDPS400000000",
+        "platforms": [
+          "PS4"
+        ],
+        "priceCents": 499,
+        "basePriceCents": 1999,
+        "plusPriceCents": null,
+        "offerEndsAt": "2026-11-04T23:59:00.000Z",
+        "perWantedGameCents": 499,
+        "wantedNames": [
+          "RESIDENT EVIL REVELATIONS"
+        ],
+        "others": [],
+        "advice": {
+          "verdict": "COMPRA",
+          "reason": "75% di sconto, minimo visto da noi: 4,99 €",
+          "shortHistory": true
+        },
+        "labels": [
+          "minimo"
+        ],
+        "plusCatalogTier": null
+      },
+      "minEverCents": 499,
       "alternatives": [],
       "pending": []
     },
@@ -151,8 +177,34 @@
       "status": "wanted",
       "aliases": [],
       "coverUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA00804_00/2/i_b9c16b24df5dcc1076afeb80defb6be6cea1855da61aa29f0632a580d66fafd7/i/icon0.png",
-      "best": null,
-      "minEverCents": null,
+      "best": {
+        "productId": "EP0102-CUSA00804_00-BHR2DELUXE000000",
+        "name": "Resident Evil Revelations 2 Deluxe Edition ",
+        "coverUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA00804_00/2/i_b9c16b24df5dcc1076afeb80defb6be6cea1855da61aa29f0632a580d66fafd7/i/icon0.png",
+        "url": "https://store.playstation.com/it-it/product/EP0102-CUSA00804_00-BHR2DELUXE000000",
+        "platforms": [
+          "PS4"
+        ],
+        "priceCents": 499,
+        "basePriceCents": 1999,
+        "plusPriceCents": null,
+        "offerEndsAt": "2026-11-04T23:59:00.000Z",
+        "perWantedGameCents": 499,
+        "wantedNames": [
+          "Resident Evil Revelations 2"
+        ],
+        "others": [],
+        "advice": {
+          "verdict": "COMPRA",
+          "reason": "75% di sconto, minimo visto da noi: 4,99 €",
+          "shortHistory": true
+        },
+        "labels": [
+          "minimo"
+        ],
+        "plusCatalogTier": null
+      },
+      "minEverCents": 499,
       "alternatives": [],
       "pending": []
     }
@@ -199,6 +251,10 @@
         {
           "at": "2026-10-23T06:04:29.273Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-10-23T08:39:48.471Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -231,6 +287,10 @@
         {
           "at": "2026-10-23T06:04:29.273Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-10-23T08:39:48.471Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -262,6 +322,40 @@
         {
           "at": "2026-10-23T06:04:29.273Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-10-23T08:39:48.471Z",
+          "priceCents": 5999
+        }
+      ]
+    },
+    "EP0102-CUSA06212_00-RERHDPS400000000": {
+      "name": "RESIDENT EVIL REVELATIONS",
+      "coverUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA06212_00/3/i_5c40c16831bf372318270df308be9323f27a9190542c8f5da4f18d0c0cc58cfb/i/icon0.png",
+      "url": "https://store.playstation.com/it-it/product/EP0102-CUSA06212_00-RERHDPS400000000",
+      "platforms": [
+        "PS4"
+      ],
+      "plusCatalogTier": null,
+      "history": [
+        {
+          "at": "2026-10-23T08:39:48.471Z",
+          "priceCents": 499
+        }
+      ]
+    },
+    "EP0102-CUSA00804_00-BHR2DELUXE000000": {
+      "name": "Resident Evil Revelations 2 Deluxe Edition ",
+      "coverUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA00804_00/2/i_b9c16b24df5dcc1076afeb80defb6be6cea1855da61aa29f0632a580d66fafd7/i/icon0.png",
+      "url": "https://store.playstation.com/it-it/product/EP0102-CUSA00804_00-BHR2DELUXE000000",
+      "platforms": [
+        "PS4"
+      ],
+      "plusCatalogTier": null,
+      "history": [
+        {
+          "at": "2026-10-23T08:39:48.471Z",
+          "priceCents": 499
         }
       ]
     }
