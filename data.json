@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T12:04:45.641Z",
+  "generatedAt": "2026-10-24T17:41:43.113Z",
   "lastCheckAt": "2026-10-24T12:04:34.616Z",
-  "lastDiscoverAt": "2026-10-23T17:54:13.707Z",
+  "lastDiscoverAt": "2026-10-24T17:41:33.366Z",
   "games": [
     {
       "id": 1,
@@ -461,7 +461,7 @@
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-24T12:04:45.637Z",
+    "fetchedAt": "2026-10-24T17:41:43.109Z",
     "top": [
       {
         "kind": "concept",
@@ -616,8 +616,8 @@
         "discountPct": 0,
         "plusTier": null,
         "productIds": [
-          "UP1821-CUSA06122_00-0000040810600000",
-          "UP1821-PPSA10990_00-1887411884729257"
+          "UP1821-PPSA10990_00-1887411884729257",
+          "UP1821-CUSA06122_00-0000040810600000"
         ],
         "gameId": null
       },
@@ -821,24 +821,6 @@
         "productIds": [
           "UP0182-PPSA33626_00-TOYSTORYCOMPLETE",
           "UP0182-PPSA33626_00-TOYSTORY2PACKPS5"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
-        "id": "10017682",
-        "name": "CONTROL Resonant",
-        "url": "https://store.playstation.com/it-it/concept/10017682",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2212/9fedf57ea1649249a0e3ac24770ea9afa6f4bfa795b5fd05.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 5999,
-        "basePriceCents": 5999,
-        "discountPct": 0,
-        "plusTier": null,
-        "productIds": [
-          "EP5291-PPSA34547_00-0210080241603648",
-          "EP5291-PPSA34547_00-0993602042148218"
         ],
         "gameId": null
       },
@@ -1055,6 +1037,27 @@
         "productIds": [
           "EP7064-PPSA30479_00-TF30000000000000",
           "EP7064-PPSA30479_00-TF3DLXEDITION000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "concept",
+        "id": "10004701",
+        "name": "Just Dance: Decades of Hits",
+        "url": "https://store.playstation.com/it-it/concept/10004701",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202510/1011/84f4bd341c30d1a7d5522b8c4ba569787aa39571bf12bd2e.png",
+        "platforms": [],
+        "classification": null,
+        "priceCents": 3999,
+        "basePriceCents": 3999,
+        "discountPct": 0,
+        "plusTier": null,
+        "productIds": [
+          "EP0001-PPSA07251_00-JDNEXTY5BUNDLE03",
+          "EP0001-PPSA07251_00-JDNEXTY5BUNDLE01",
+          "EP0001-PPSA07251_00-JDNEXTY4BUNDLE01",
+          "EP0001-PPSA07251_00-JDNEXTY5BUNDLE02",
+          "EP0001-PPSA07251_00-JDNEXTPS5SIEE000"
         ],
         "gameId": null
       }
