@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T17:58:00.124Z",
-  "lastCheckAt": "2026-10-23T17:57:49.624Z",
+  "generatedAt": "2026-10-24T00:02:46.738Z",
+  "lastCheckAt": "2026-10-24T00:02:35.582Z",
   "lastDiscoverAt": "2026-10-23T17:54:13.707Z",
   "games": [
     {
@@ -263,6 +263,10 @@
         {
           "at": "2026-10-23T17:57:37.479Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-10-24T00:02:23.212Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -307,6 +311,10 @@
         {
           "at": "2026-10-23T17:57:37.479Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-10-24T00:02:23.212Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -350,6 +358,10 @@
         {
           "at": "2026-10-23T17:57:37.479Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-10-24T00:02:23.212Z",
+          "priceCents": 5999
         }
       ]
     },
@@ -372,6 +384,10 @@
         },
         {
           "at": "2026-10-23T17:57:37.479Z",
+          "priceCents": 499
+        },
+        {
+          "at": "2026-10-24T00:02:23.212Z",
           "priceCents": 499
         }
       ]
@@ -396,12 +412,16 @@
         {
           "at": "2026-10-23T17:57:37.479Z",
           "priceCents": 499
+        },
+        {
+          "at": "2026-10-24T00:02:23.212Z",
+          "priceCents": 499
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-23T17:58:00.121Z",
+    "fetchedAt": "2026-10-24T00:02:46.736Z",
     "top": [
       {
         "kind": "concept",
@@ -874,24 +894,6 @@
       },
       {
         "kind": "concept",
-        "id": "10016947",
-        "name": "SILENT HILL: Townfall",
-        "url": "https://store.playstation.com/it-it/concept/10016947",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1407/420dcf45979ace1b7c97122a2dc0eb479428590ecab89c2b.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 4999,
-        "basePriceCents": 4999,
-        "discountPct": 0,
-        "plusTier": null,
-        "productIds": [
-          "JP0101-PPSA33286_00-TOWNFALLSIEJ0000",
-          "JP0101-PPSA33286_00-SHTOWNFALLDELUXE"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
         "id": "10008220",
         "name": "Minecraft Dungeons II",
         "url": "https://store.playstation.com/it-it/concept/10008220",
@@ -994,6 +996,24 @@
           "HP7588-PPSA28050_00-MAIN000000000000",
           "HP7588-PPSA28050_00-SET0100000000000",
           "HP7588-PPSA38525_00-DEMO000000000000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "concept",
+        "id": "10011569",
+        "name": "Seafarer: The Ship Sim",
+        "url": "https://store.playstation.com/it-it/concept/10011569",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202607/1316/fb439a5642d4eb7de023fbb889c1a5454c45272a6b58310d.png",
+        "platforms": [],
+        "classification": null,
+        "priceCents": 3499,
+        "basePriceCents": 3499,
+        "discountPct": 0,
+        "plusTier": null,
+        "productIds": [
+          "EP2430-PPSA24125_00-0074979166632686",
+          "EP2430-PPSA24125_00-0903213055500686"
         ],
         "gameId": null
       }
