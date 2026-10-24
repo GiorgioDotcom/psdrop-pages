@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T00:02:46.738Z",
-  "lastCheckAt": "2026-10-24T00:02:35.582Z",
+  "generatedAt": "2026-10-24T06:13:50.505Z",
+  "lastCheckAt": "2026-10-24T06:13:39.395Z",
   "lastDiscoverAt": "2026-10-23T17:54:13.707Z",
   "games": [
     {
@@ -267,6 +267,10 @@
         {
           "at": "2026-10-24T00:02:23.212Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-10-24T06:13:27.344Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -315,6 +319,10 @@
         {
           "at": "2026-10-24T00:02:23.212Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-10-24T06:13:27.344Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -362,6 +370,10 @@
         {
           "at": "2026-10-24T00:02:23.212Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-10-24T06:13:27.344Z",
+          "priceCents": 5999
         }
       ]
     },
@@ -388,6 +400,10 @@
         },
         {
           "at": "2026-10-24T00:02:23.212Z",
+          "priceCents": 499
+        },
+        {
+          "at": "2026-10-24T06:13:27.344Z",
           "priceCents": 499
         }
       ]
@@ -416,12 +432,16 @@
         {
           "at": "2026-10-24T00:02:23.212Z",
           "priceCents": 499
+        },
+        {
+          "at": "2026-10-24T06:13:27.344Z",
+          "priceCents": 499
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-24T00:02:46.736Z",
+    "fetchedAt": "2026-10-24T06:13:50.503Z",
     "top": [
       {
         "kind": "concept",
@@ -444,24 +464,6 @@
       },
       {
         "kind": "concept",
-        "id": "10000730",
-        "name": "Grand Theft Auto VI",
-        "url": "https://store.playstation.com/it-it/concept/10000730",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/9f51f0ccdb65bd29c36a0907a738c2902a712f03e2fd6470.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 9999,
-        "basePriceCents": 9999,
-        "discountPct": 0,
-        "plusTier": null,
-        "productIds": [
-          "EP1004-PPSA01547_00-GTAVIULTIMATE001",
-          "EP1004-PPSA01547_00-GTAVISTANDARD001"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
         "id": "10001130",
         "name": "Call of Duty®",
         "url": "https://store.playstation.com/it-it/concept/10001130",
@@ -476,10 +478,28 @@
           "EP0002-PPSA07950_00-CODMW4STANDARD01",
           "EP0002-PPSA07950_00-CODMW4VAULT00001",
           "EP0002-PPSA07950_00-CODBO7CROSSGEN01",
-          "EP0002-PPSA07950_00-CODMW2CROSSGEN01",
           "EP0002-PPSA07950_00-CODMW3CROSSGEN01",
+          "EP0002-PPSA07950_00-CODMW2CROSSGEN01",
           "EP0002-PPSA07950_00-CODBO6CROSSGEN01",
           "EP0002-PPSA07950_00-CODWZ2BUNDLE0001"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "concept",
+        "id": "10000730",
+        "name": "Grand Theft Auto VI",
+        "url": "https://store.playstation.com/it-it/concept/10000730",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/9f51f0ccdb65bd29c36a0907a738c2902a712f03e2fd6470.png",
+        "platforms": [],
+        "classification": null,
+        "priceCents": 9999,
+        "basePriceCents": 9999,
+        "discountPct": 0,
+        "plusTier": null,
+        "productIds": [
+          "EP1004-PPSA01547_00-GTAVIULTIMATE001",
+          "EP1004-PPSA01547_00-GTAVISTANDARD001"
         ],
         "gameId": null
       },
@@ -536,8 +556,8 @@
         "discountPct": 0,
         "plusTier": null,
         "productIds": [
-          "EP0101-CUSA26996_00-EDITION000000014",
           "EP0101-CUSA26996_00-EDITION000000012",
+          "EP0101-CUSA26996_00-EDITION000000014",
           "EP0101-CUSA26996_00-EDITION000000015",
           "EP0101-CUSA26996_00-EDITION000000013",
           "EP0101-CUSA26996_00-EFOOTBALL0000000",
@@ -576,8 +596,8 @@
         "discountPct": 0,
         "plusTier": null,
         "productIds": [
-          "UP1821-PPSA10990_00-1887411884729257",
-          "UP1821-CUSA06122_00-0000040810600000"
+          "UP1821-CUSA06122_00-0000040810600000",
+          "UP1821-PPSA10990_00-1887411884729257"
         ],
         "gameId": null
       },
@@ -603,23 +623,43 @@
       },
       {
         "kind": "concept",
-        "id": "203715",
-        "name": "Rocket League®",
-        "url": "https://store.playstation.com/it-it/concept/203715",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1706/a03b0fde2903545c6b1e1906841e5991b52a108f9eec2e0f.png",
+        "id": "10017620",
+        "name": "Phantom Blade Zero",
+        "url": "https://store.playstation.com/it-it/concept/10017620",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2810/8ea15bce1b7336894aa364867c03a3ea32ecd2f1455a4333.png",
         "platforms": [],
         "classification": null,
-        "priceCents": 0,
-        "basePriceCents": 0,
+        "priceCents": 6999,
+        "basePriceCents": 6999,
         "discountPct": 0,
         "plusTier": null,
         "productIds": [
-          "EP2002-CUSA01433_00-ROCKETLEAGUEEU01"
+          "UB2134-PPSA34579_00-0622032276386943",
+          "UB2134-PPSA34579_00-0679049422108833"
         ],
         "gameId": null
       }
     ],
     "new": [
+      {
+        "kind": "concept",
+        "id": "10015961",
+        "name": "FINAL FANTASY RESONANCE",
+        "url": "https://store.playstation.com/it-it/concept/10015961",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2403/8e22140956f5980e5a33a0f6fa22ced64c3597cfdf20bc0e.png",
+        "platforms": [],
+        "classification": null,
+        "priceCents": 5999,
+        "basePriceCents": 5999,
+        "discountPct": 0,
+        "plusTier": null,
+        "productIds": [
+          "JP0082-PPSA31544_00-FFRSSTDWW0000000",
+          "JP0082-PPSA31544_00-FFRSDDXWW0000000",
+          "JP0082-PPSA36303_00-FFRSDEMOWW000000"
+        ],
+        "gameId": null
+      },
       {
         "kind": "concept",
         "id": "10017710",
@@ -652,25 +692,6 @@
         "productIds": [
           "EP4137-PPSA32539_00-0013250200429445",
           "EP4137-PPSA32539_00-0441013565276703"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
-        "id": "10015961",
-        "name": "FINAL FANTASY RESONANCE",
-        "url": "https://store.playstation.com/it-it/concept/10015961",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2403/8e22140956f5980e5a33a0f6fa22ced64c3597cfdf20bc0e.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 5999,
-        "basePriceCents": 5999,
-        "discountPct": 0,
-        "plusTier": null,
-        "productIds": [
-          "JP0082-PPSA31544_00-FFRSSTDWW0000000",
-          "JP0082-PPSA31544_00-FFRSDDXWW0000000",
-          "JP0082-PPSA36303_00-FFRSDEMOWW000000"
         ],
         "gameId": null
       },
@@ -868,8 +889,8 @@
         "plusTier": null,
         "productIds": [
           "UP0082-PPSA35901_00-KHCOLLECTION00EN",
-          "UP0082-PPSA35999_00-KHHD03RMX0000000",
           "UP0082-PPSA35901_00-KHHD1525RMX00000",
+          "UP0082-PPSA35999_00-KHHD03RMX0000000",
           "UP0082-PPSA35909_00-KHHD28RMX0000000"
         ],
         "gameId": null
@@ -965,23 +986,6 @@
       },
       {
         "kind": "concept",
-        "id": "10012377",
-        "name": "End of Abyss",
-        "url": "https://store.playstation.com/it-it/concept/10012377",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1019/0d2e73708559cde05e59a29b70a4f4eebde405d55dce9958.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 2999,
-        "basePriceCents": 2999,
-        "discountPct": 0,
-        "plusTier": "Premium",
-        "productIds": [
-          "HP1597-PPSA25717_00-ENDOFABYSS000000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
         "id": "10013888",
         "name": "Stupid Never Dies",
         "url": "https://store.playstation.com/it-it/concept/10013888",
@@ -1001,19 +1005,36 @@
       },
       {
         "kind": "concept",
-        "id": "10011569",
-        "name": "Seafarer: The Ship Sim",
-        "url": "https://store.playstation.com/it-it/concept/10011569",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202607/1316/fb439a5642d4eb7de023fbb889c1a5454c45272a6b58310d.png",
+        "id": "10012377",
+        "name": "End of Abyss",
+        "url": "https://store.playstation.com/it-it/concept/10012377",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1019/0d2e73708559cde05e59a29b70a4f4eebde405d55dce9958.png",
         "platforms": [],
         "classification": null,
-        "priceCents": 3499,
-        "basePriceCents": 3499,
+        "priceCents": 2999,
+        "basePriceCents": 2999,
+        "discountPct": 0,
+        "plusTier": "Premium",
+        "productIds": [
+          "HP1597-PPSA25717_00-ENDOFABYSS000000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "concept",
+        "id": "10014611",
+        "name": "Tales of Eternia Remastered",
+        "url": "https://store.playstation.com/it-it/concept/10014611",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2613/ad672882a2be7399e401211093822ae7d6ce035cbd635be9.png",
+        "platforms": [],
+        "classification": null,
+        "priceCents": 2999,
+        "basePriceCents": 2999,
         "discountPct": 0,
         "plusTier": null,
         "productIds": [
-          "EP2430-PPSA24125_00-0074979166632686",
-          "EP2430-PPSA24125_00-0903213055500686"
+          "JP0700-PPSA29161_00-MAINGAME00000000",
+          "JP0700-PPSA29161_00-TOEREDLXEDITION0"
         ],
         "gameId": null
       }
@@ -1193,26 +1214,6 @@
       },
       {
         "kind": "product",
-        "id": "EP0001-PPSA01372_00-MADSTANDARTED000",
-        "name": "Riders Republic™ PS4 & PS5",
-        "url": "https://store.playstation.com/it-it/product/EP0001-PPSA01372_00-MADSTANDARTED000",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2218/fc8820f3fac783a3d1cf0d08ef96431b1f5a51bbfc282db3.png",
-        "platforms": [
-          "PS4",
-          "PS5"
-        ],
-        "classification": "GAME_BUNDLE",
-        "priceCents": 799,
-        "basePriceCents": 3999,
-        "discountPct": 80,
-        "plusTier": "Extra",
-        "productIds": [
-          "EP0001-PPSA01372_00-MADSTANDARTED000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP0102-PPSA04289_00-BH2R000000000001",
         "name": "RESIDENT EVIL 2",
         "url": "https://store.playstation.com/it-it/product/EP0102-PPSA04289_00-BH2R000000000001",
@@ -1228,6 +1229,26 @@
         "plusTier": null,
         "productIds": [
           "EP0102-PPSA04289_00-BH2R000000000001"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP0001-PPSA01372_00-MADSTANDARTED000",
+        "name": "Riders Republic™ PS4 & PS5",
+        "url": "https://store.playstation.com/it-it/product/EP0001-PPSA01372_00-MADSTANDARTED000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2218/fc8820f3fac783a3d1cf0d08ef96431b1f5a51bbfc282db3.png",
+        "platforms": [
+          "PS4",
+          "PS5"
+        ],
+        "classification": "GAME_BUNDLE",
+        "priceCents": 799,
+        "basePriceCents": 3999,
+        "discountPct": 80,
+        "plusTier": "Extra",
+        "productIds": [
+          "EP0001-PPSA01372_00-MADSTANDARTED000"
         ],
         "gameId": null
       },
@@ -1292,6 +1313,26 @@
       },
       {
         "kind": "product",
+        "id": "EP0700-PPSA27502_00-OPPW4LGDEDITION0",
+        "name": "ONE PIECE: PIRATE WARRIORS 4 Legendary Edition",
+        "url": "https://store.playstation.com/it-it/product/EP0700-PPSA27502_00-OPPW4LGDEDITION0",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202511/0516/e31ec030597036e4515ba600065906893147571699aafd56.png",
+        "platforms": [
+          "PS4",
+          "PS5"
+        ],
+        "classification": "PREMIUM_EDITION",
+        "priceCents": 2749,
+        "basePriceCents": 10999,
+        "discountPct": 75,
+        "plusTier": null,
+        "productIds": [
+          "EP0700-PPSA27502_00-OPPW4LGDEDITION0"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
         "id": "EP0102-CUSA04284_00-RE5HDPS400000000",
         "name": "RESIDENT EVIL 5",
         "url": "https://store.playstation.com/it-it/product/EP0102-CUSA04284_00-RE5HDPS400000000",
@@ -1330,26 +1371,6 @@
       },
       {
         "kind": "product",
-        "id": "EP0700-PPSA27502_00-OPPW4LGDEDITION0",
-        "name": "ONE PIECE: PIRATE WARRIORS 4 Legendary Edition",
-        "url": "https://store.playstation.com/it-it/product/EP0700-PPSA27502_00-OPPW4LGDEDITION0",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202511/0516/e31ec030597036e4515ba600065906893147571699aafd56.png",
-        "platforms": [
-          "PS4",
-          "PS5"
-        ],
-        "classification": "PREMIUM_EDITION",
-        "priceCents": 2749,
-        "basePriceCents": 10999,
-        "discountPct": 75,
-        "plusTier": null,
-        "productIds": [
-          "EP0700-PPSA27502_00-OPPW4LGDEDITION0"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP0102-CUSA01067_00-BHRHDPS400000001",
         "name": "Resident Evil",
         "url": "https://store.playstation.com/it-it/product/EP0102-CUSA01067_00-BHRHDPS400000001",
@@ -1364,6 +1385,44 @@
         "plusTier": null,
         "productIds": [
           "EP0102-CUSA01067_00-BHRHDPS400000001"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP0102-PPSA01443_00-DMC5SE0000000001",
+        "name": "Devil May Cry 5 Special Edition",
+        "url": "https://store.playstation.com/it-it/product/EP0102-PPSA01443_00-DMC5SE0000000001",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202009/1710/UUnpHLJqLAIJX5HioswiPuAm.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 999,
+        "basePriceCents": 3999,
+        "discountPct": 75,
+        "plusTier": null,
+        "productIds": [
+          "EP0102-PPSA01443_00-DMC5SE0000000001"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP2770-CUSA16506_00-TWDTDS0000000000",
+        "name": "The Walking Dead: The Telltale Definitive Series",
+        "url": "https://store.playstation.com/it-it/product/EP2770-CUSA16506_00-TWDTDS0000000000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/img/cfn/11307xCvZNue3YqF9R_wahd74XC7v61UbHXiEsRuEVLSQj1ASCaVN4ZOF4Fq_nWRdC80-sMawBylntrEHFlq6Kel-DQsU-vb.png",
+        "platforms": [
+          "PS4"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 1249,
+        "basePriceCents": 4999,
+        "discountPct": 75,
+        "plusTier": null,
+        "productIds": [
+          "EP2770-CUSA16506_00-TWDTDS0000000000"
         ],
         "gameId": null
       },
@@ -1426,25 +1485,6 @@
       },
       {
         "kind": "product",
-        "id": "EP4133-PPSA02785_00-APLAGUEOUTBURST0",
-        "name": "A Plague Tale: Requiem",
-        "url": "https://store.playstation.com/it-it/product/EP4133-PPSA02785_00-APLAGUEOUTBURST0",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202106/1717/xIQOO3Mo5YMnIm81qkH3y5kJ.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 1799,
-        "basePriceCents": 5999,
-        "discountPct": 70,
-        "plusTier": "Premium",
-        "productIds": [
-          "EP4133-PPSA02785_00-APLAGUEOUTBURST0"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP0002-PPSA02433_00-CB4THEGAME000001",
         "name": "Crash Bandicoot™ 4: It’s About Time",
         "url": "https://store.playstation.com/it-it/product/EP0002-PPSA02433_00-CB4THEGAME000001",
@@ -1460,6 +1500,25 @@
         "plusTier": null,
         "productIds": [
           "EP0002-PPSA02433_00-CB4THEGAME000001"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP9000-PPSA01341_00-DEMONSSOULSDX000",
+        "name": "Demon's Souls Digital Deluxe Edition",
+        "url": "https://store.playstation.com/it-it/product/EP9000-PPSA01341_00-DEMONSSOULSDX000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/img/rnd/202011/1716/goYemuhy67tZWq0Q9nQyErrx.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "PREMIUM_EDITION",
+        "priceCents": 3299,
+        "basePriceCents": 9999,
+        "discountPct": 67,
+        "plusTier": null,
+        "productIds": [
+          "EP9000-PPSA01341_00-DEMONSSOULSDX000"
         ],
         "gameId": null
       },
@@ -1504,25 +1563,6 @@
       },
       {
         "kind": "product",
-        "id": "EP9000-PPSA28181_00-DAYSGONEREMASTER",
-        "name": "Days Gone Remastered",
-        "url": "https://store.playstation.com/it-it/product/EP9000-PPSA28181_00-DAYSGONEREMASTER",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1302/5453188f455facc3bee8fc154b46786dd89ef4d5a938f33b.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 1999,
-        "basePriceCents": 4999,
-        "discountPct": 60,
-        "plusTier": null,
-        "productIds": [
-          "EP9000-PPSA28181_00-DAYSGONEREMASTER"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP9000-PPSA08338_00-MSM2DDE000000000",
         "name": "Marvel’s Spider-Man 2 Digital Deluxe Edition",
         "url": "https://store.playstation.com/it-it/product/EP9000-PPSA08338_00-MSM2DDE000000000",
@@ -1537,6 +1577,25 @@
         "plusTier": null,
         "productIds": [
           "EP9000-PPSA08338_00-MSM2DDE000000000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP9000-PPSA28181_00-DAYSGONEREMASTER",
+        "name": "Days Gone Remastered",
+        "url": "https://store.playstation.com/it-it/product/EP9000-PPSA28181_00-DAYSGONEREMASTER",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1302/5453188f455facc3bee8fc154b46786dd89ef4d5a938f33b.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 1999,
+        "basePriceCents": 4999,
+        "discountPct": 60,
+        "plusTier": null,
+        "productIds": [
+          "EP9000-PPSA28181_00-DAYSGONEREMASTER"
         ],
         "gameId": null
       },
@@ -1581,25 +1640,6 @@
       },
       {
         "kind": "product",
-        "id": "EP0002-CUSA07399_00-CRASHNSANETRLOGY",
-        "name": "Crash Bandicoot™ N. Sane Trilogy",
-        "url": "https://store.playstation.com/it-it/product/EP0002-CUSA07399_00-CRASHNSANETRLOGY",
-        "coverUrl": "https://image.api.playstation.com/cdn/EP0002/CUSA07399_00/bPXMfRCtjGgvIS0BxOWqVsn94MAMLMkE.png",
-        "platforms": [
-          "PS4"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 1599,
-        "basePriceCents": 3999,
-        "discountPct": 60,
-        "plusTier": null,
-        "productIds": [
-          "EP0002-CUSA07399_00-CRASHNSANETRLOGY"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP9000-PPSA05684_00-UNCHARTED4R00000",
         "name": "UNCHARTED: Raccolta L'eredità dei ladri",
         "url": "https://store.playstation.com/it-it/product/EP9000-PPSA05684_00-UNCHARTED4R00000",
@@ -1614,6 +1654,25 @@
         "plusTier": "Extra",
         "productIds": [
           "EP9000-PPSA05684_00-UNCHARTED4R00000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP0002-CUSA07399_00-CRASHNSANETRLOGY",
+        "name": "Crash Bandicoot™ N. Sane Trilogy",
+        "url": "https://store.playstation.com/it-it/product/EP0002-CUSA07399_00-CRASHNSANETRLOGY",
+        "coverUrl": "https://image.api.playstation.com/cdn/EP0002/CUSA07399_00/bPXMfRCtjGgvIS0BxOWqVsn94MAMLMkE.png",
+        "platforms": [
+          "PS4"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 1599,
+        "basePriceCents": 3999,
+        "discountPct": 60,
+        "plusTier": null,
+        "productIds": [
+          "EP0002-CUSA07399_00-CRASHNSANETRLOGY"
         ],
         "gameId": null
       },
@@ -1638,26 +1697,6 @@
       },
       {
         "kind": "product",
-        "id": "EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
-        "name": "Dead by Daylight PS4® & PS5®",
-        "url": "https://store.playstation.com/it-it/product/EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0113/e98238835ada32e22b4e21455b4206cacd19070ea359763f.png",
-        "platforms": [
-          "PS4",
-          "PS5"
-        ],
-        "classification": "PREMIUM_EDITION",
-        "priceCents": 1199,
-        "basePriceCents": 2999,
-        "discountPct": 60,
-        "plusTier": "Extra",
-        "productIds": [
-          "EP3367-PPSA02049_00-DEADBYDAYLIGHT00"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP0102-PPSA04401_00-BH70000000000001",
         "name": "RESIDENT EVIL 7 biohazard",
         "url": "https://store.playstation.com/it-it/product/EP0102-PPSA04401_00-BH70000000000001",
@@ -1673,6 +1712,26 @@
         "plusTier": null,
         "productIds": [
           "EP0102-PPSA04401_00-BH70000000000001"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
+        "name": "Dead by Daylight PS4® & PS5®",
+        "url": "https://store.playstation.com/it-it/product/EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0113/e98238835ada32e22b4e21455b4206cacd19070ea359763f.png",
+        "platforms": [
+          "PS4",
+          "PS5"
+        ],
+        "classification": "PREMIUM_EDITION",
+        "priceCents": 1199,
+        "basePriceCents": 2999,
+        "discountPct": 60,
+        "plusTier": "Extra",
+        "productIds": [
+          "EP3367-PPSA02049_00-DEADBYDAYLIGHT00"
         ],
         "gameId": null
       },
@@ -1756,25 +1815,6 @@
       },
       {
         "kind": "product",
-        "id": "EP1004-PPSA01721_00-GTAOSTANDALONE01",
-        "name": "Grand Theft Auto Online (PlayStation®5)",
-        "url": "https://store.playstation.com/it-it/product/EP1004-PPSA01721_00-GTAOSTANDALONE01",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202202/2816/mYn2ETBKFct26V9mJnZi4aSS.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "GAME_BUNDLE",
-        "priceCents": 999,
-        "basePriceCents": 1999,
-        "discountPct": 50,
-        "plusTier": null,
-        "productIds": [
-          "EP1004-PPSA01721_00-GTAOSTANDALONE01"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP1004-PPSA01721_00-GTAVCROSSGENBUND",
         "name": "Grand Theft Auto V (PS4™ e PS5™)",
         "url": "https://store.playstation.com/it-it/product/EP1004-PPSA01721_00-GTAVCROSSGENBUND",
@@ -1795,20 +1835,20 @@
       },
       {
         "kind": "product",
-        "id": "EP4176-PPSA24096_00-TITAN00000000000",
-        "name": "Cronos: The New Dawn",
-        "url": "https://store.playstation.com/it-it/product/EP4176-PPSA24096_00-TITAN00000000000",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202410/1511/3775082b58945a3e9659f576feb92e0102332ac42f87ec24.png",
+        "id": "EP1004-PPSA01721_00-GTAOSTANDALONE01",
+        "name": "Grand Theft Auto Online (PlayStation®5)",
+        "url": "https://store.playstation.com/it-it/product/EP1004-PPSA01721_00-GTAOSTANDALONE01",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202202/2816/mYn2ETBKFct26V9mJnZi4aSS.png",
         "platforms": [
           "PS5"
         ],
-        "classification": "FULL_GAME",
-        "priceCents": 2999,
-        "basePriceCents": 5999,
+        "classification": "GAME_BUNDLE",
+        "priceCents": 999,
+        "basePriceCents": 1999,
         "discountPct": 50,
         "plusTier": null,
         "productIds": [
-          "EP4176-PPSA24096_00-TITAN00000000000"
+          "EP1004-PPSA01721_00-GTAOSTANDALONE01"
         ],
         "gameId": null
       },
@@ -1833,21 +1873,59 @@
       },
       {
         "kind": "product",
-        "id": "EP2865-PPSA02891_00-7560871633130462",
-        "name": "ON THE ROAD - The Truck Simulator",
-        "url": "https://store.playstation.com/it-it/product/EP2865-PPSA02891_00-7560871633130462",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1209/76507fad829e34afea99457ce7c37f3edeccbe09877f0485.png",
+        "id": "EP4176-PPSA24096_00-TITAN00000000000",
+        "name": "Cronos: The New Dawn",
+        "url": "https://store.playstation.com/it-it/product/EP4176-PPSA24096_00-TITAN00000000000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202410/1511/3775082b58945a3e9659f576feb92e0102332ac42f87ec24.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 2999,
+        "basePriceCents": 5999,
+        "discountPct": 50,
+        "plusTier": null,
+        "productIds": [
+          "EP4176-PPSA24096_00-TITAN00000000000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP0700-PPSA05143_00-LITTLENIGHTS3000",
+        "name": "Little Nightmares III",
+        "url": "https://store.playstation.com/it-it/product/EP0700-PPSA05143_00-LITTLENIGHTS3000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202505/1512/2847939df260cbe4fd68ff4c36af6813da3590e0bef55ce6.png",
         "platforms": [
           "PS4",
           "PS5"
         ],
         "classification": "FULL_GAME",
-        "priceCents": 1499,
-        "basePriceCents": 2999,
+        "priceCents": 1999,
+        "basePriceCents": 3999,
         "discountPct": 50,
-        "plusTier": "Ulteriore risparmio del 5%",
+        "plusTier": null,
         "productIds": [
-          "EP2865-PPSA02891_00-7560871633130462"
+          "EP0700-PPSA05143_00-LITTLENIGHTS3000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP2911-PPSA24003_00-DLTBDELUXE000000",
+        "name": "Dying Light: The Beast Deluxe Edition",
+        "url": "https://store.playstation.com/it-it/product/EP2911-PPSA24003_00-DLTBDELUXE000000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1710/756ea11bae4aa2e1af95b779079a58e1d56b6d3fd106789d.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "GAME_BUNDLE",
+        "priceCents": 3999,
+        "basePriceCents": 7999,
+        "discountPct": 50,
+        "plusTier": null,
+        "productIds": [
+          "EP2911-PPSA24003_00-DLTBDELUXE000000"
         ],
         "gameId": null
       },
@@ -2173,25 +2251,6 @@
         "plusTier": null,
         "productIds": [
           "EP3430-PPSA36921_00-0282016795684965"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
-        "id": "UP1032-PPSA22721_00-LORWARINNORTH325",
-        "name": "Il Signore degli Anelli™: La Guerra del Nord™ - Legacy Edition",
-        "url": "https://store.playstation.com/it-it/product/UP1032-PPSA22721_00-LORWARINNORTH325",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2020/e4b65e101fea3442a20f9b3d61b162231e7b2a773380a6f5.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 2159,
-        "basePriceCents": 2399,
-        "discountPct": 10,
-        "plusTier": null,
-        "productIds": [
-          "UP1032-PPSA22721_00-LORWARINNORTH325"
         ],
         "gameId": null
       }
