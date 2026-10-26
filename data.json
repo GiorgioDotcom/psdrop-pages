@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T06:29:30.911Z",
-  "lastCheckAt": "2026-10-26T06:29:21.797Z",
+  "generatedAt": "2026-10-26T12:26:07.378Z",
+  "lastCheckAt": "2026-10-26T12:25:57.351Z",
   "lastDiscoverAt": "2026-10-26T00:26:59.318Z",
   "games": [
     {
@@ -299,6 +299,10 @@
         {
           "at": "2026-10-26T06:29:10.284Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-10-26T12:25:44.622Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -379,6 +383,10 @@
         {
           "at": "2026-10-26T06:29:10.284Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-10-26T12:25:44.622Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -458,6 +466,10 @@
         {
           "at": "2026-10-26T06:29:10.284Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-10-26T12:25:44.622Z",
+          "priceCents": 5999
         }
       ]
     },
@@ -516,6 +528,10 @@
         },
         {
           "at": "2026-10-26T06:29:10.284Z",
+          "priceCents": 499
+        },
+        {
+          "at": "2026-10-26T12:25:44.622Z",
           "priceCents": 499
         }
       ]
@@ -576,12 +592,16 @@
         {
           "at": "2026-10-26T06:29:10.284Z",
           "priceCents": 499
+        },
+        {
+          "at": "2026-10-26T12:25:44.622Z",
+          "priceCents": 499
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-26T06:29:30.909Z",
+    "fetchedAt": "2026-10-26T12:26:07.375Z",
     "top": [
       {
         "kind": "concept",
@@ -892,24 +912,6 @@
       },
       {
         "kind": "concept",
-        "id": "10016571",
-        "name": "Valor Mortis",
-        "url": "https://store.playstation.com/it-it/concept/10016571",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202508/1815/96fbe904b245c74b7cbd85f2ed33c1b3d2e60186ce56b51a.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 3999,
-        "basePriceCents": 3999,
-        "discountPct": 0,
-        "plusTier": "Premium",
-        "productIds": [
-          "EB2076-PPSA32793_00-VALORMORTIS00000",
-          "EB2076-PPSA32793_00-VALORMORTIS00001"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
         "id": "10017739",
         "name": "We Were Here Tomorrow",
         "url": "https://store.playstation.com/it-it/concept/10017739",
@@ -941,6 +943,24 @@
         "productIds": [
           "UP0182-PPSA33626_00-TOYSTORYCOMPLETE",
           "UP0182-PPSA33626_00-TOYSTORY2PACKPS5"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "concept",
+        "id": "10016571",
+        "name": "Valor Mortis",
+        "url": "https://store.playstation.com/it-it/concept/10016571",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202508/1815/96fbe904b245c74b7cbd85f2ed33c1b3d2e60186ce56b51a.png",
+        "platforms": [],
+        "classification": null,
+        "priceCents": 3999,
+        "basePriceCents": 3999,
+        "discountPct": 0,
+        "plusTier": "Premium",
+        "productIds": [
+          "EB2076-PPSA32793_00-VALORMORTIS00000",
+          "EB2076-PPSA32793_00-VALORMORTIS00001"
         ],
         "gameId": null
       },
@@ -1155,10 +1175,10 @@
         "discountPct": 0,
         "plusTier": null,
         "productIds": [
-          "EP0001-PPSA07251_00-JDNEXTY5BUNDLE03",
           "EP0001-PPSA07251_00-JDNEXTY5BUNDLE01",
-          "EP0001-PPSA07251_00-JDNEXTY4BUNDLE01",
           "EP0001-PPSA07251_00-JDNEXTY5BUNDLE02",
+          "EP0001-PPSA07251_00-JDNEXTY4BUNDLE01",
+          "EP0001-PPSA07251_00-JDNEXTY5BUNDLE03",
           "EP0001-PPSA07251_00-JDNEXTPS5SIEE000"
         ],
         "gameId": null
@@ -1476,6 +1496,26 @@
       },
       {
         "kind": "product",
+        "id": "EP0102-PPSA01557_00-VILLAGEFULLGAMEX",
+        "name": "Resident Evil Village PS4 & PS5",
+        "url": "https://store.playstation.com/it-it/product/EP0102-PPSA01557_00-VILLAGEFULLGAMEX",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png",
+        "platforms": [
+          "PS4",
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 999,
+        "basePriceCents": 3999,
+        "discountPct": 75,
+        "plusTier": "Extra",
+        "productIds": [
+          "EP0102-PPSA01557_00-VILLAGEFULLGAMEX"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
         "id": "EP0102-CUSA04284_00-RE5HDPS400000000",
         "name": "RESIDENT EVIL 5",
         "url": "https://store.playstation.com/it-it/product/EP0102-CUSA04284_00-RE5HDPS400000000",
@@ -1509,26 +1549,6 @@
         "plusTier": null,
         "productIds": [
           "EP0102-CUSA03840_00-BH6HDPS400000000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
-        "id": "EP0102-PPSA01557_00-VILLAGEFULLGAMEX",
-        "name": "Resident Evil Village PS4 & PS5",
-        "url": "https://store.playstation.com/it-it/product/EP0102-PPSA01557_00-VILLAGEFULLGAMEX",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png",
-        "platforms": [
-          "PS4",
-          "PS5"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 999,
-        "basePriceCents": 3999,
-        "discountPct": 75,
-        "plusTier": "Extra",
-        "productIds": [
-          "EP0102-PPSA01557_00-VILLAGEFULLGAMEX"
         ],
         "gameId": null
       },
@@ -1644,6 +1664,26 @@
         "plusTier": null,
         "productIds": [
           "EP9000-PPSA01341_00-DEMONSSOULSDX000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP0102-PPSA01557_00-RE7VILLAGECOMPGE",
+        "name": "Resident Evil 7 Gold Edition & Village Gold Edition PS4 & PS5",
+        "url": "https://store.playstation.com/it-it/product/EP0102-PPSA01557_00-RE7VILLAGECOMPGE",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202301/2006/4awSHeidkc4MhWt7J98SIcRj.png",
+        "platforms": [
+          "PS4",
+          "PS5"
+        ],
+        "classification": "GAME_BUNDLE",
+        "priceCents": 1979,
+        "basePriceCents": 5999,
+        "discountPct": 67,
+        "plusTier": null,
+        "productIds": [
+          "EP0102-PPSA01557_00-RE7VILLAGECOMPGE"
         ],
         "gameId": null
       },
@@ -1784,25 +1824,6 @@
       },
       {
         "kind": "product",
-        "id": "EP9000-PPSA05684_00-UNCHARTED4R00000",
-        "name": "UNCHARTED: Raccolta L'eredità dei ladri",
-        "url": "https://store.playstation.com/it-it/product/EP9000-PPSA05684_00-UNCHARTED4R00000",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202111/2000/fBstihALSugYqkP94Tk7Sd3k.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 1999,
-        "basePriceCents": 4999,
-        "discountPct": 60,
-        "plusTier": "Extra",
-        "productIds": [
-          "EP9000-PPSA05684_00-UNCHARTED4R00000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP0002-CUSA07399_00-CRASHNSANETRLOGY",
         "name": "Crash Bandicoot™ N. Sane Trilogy",
         "url": "https://store.playstation.com/it-it/product/EP0002-CUSA07399_00-CRASHNSANETRLOGY",
@@ -1817,6 +1838,25 @@
         "plusTier": null,
         "productIds": [
           "EP0002-CUSA07399_00-CRASHNSANETRLOGY"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP9000-PPSA05684_00-UNCHARTED4R00000",
+        "name": "UNCHARTED: Raccolta L'eredità dei ladri",
+        "url": "https://store.playstation.com/it-it/product/EP9000-PPSA05684_00-UNCHARTED4R00000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202111/2000/fBstihALSugYqkP94Tk7Sd3k.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 1999,
+        "basePriceCents": 4999,
+        "discountPct": 60,
+        "plusTier": "Extra",
+        "productIds": [
+          "EP9000-PPSA05684_00-UNCHARTED4R00000"
         ],
         "gameId": null
       },
@@ -1875,26 +1915,6 @@
         "plusTier": null,
         "productIds": [
           "EP2566-PPSA23770_00-REMATCHULTIMATE0"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
-        "id": "EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
-        "name": "Dead by Daylight PS4® & PS5®",
-        "url": "https://store.playstation.com/it-it/product/EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0113/e98238835ada32e22b4e21455b4206cacd19070ea359763f.png",
-        "platforms": [
-          "PS4",
-          "PS5"
-        ],
-        "classification": "PREMIUM_EDITION",
-        "priceCents": 1199,
-        "basePriceCents": 2999,
-        "discountPct": 60,
-        "plusTier": "Extra",
-        "productIds": [
-          "EP3367-PPSA02049_00-DEADBYDAYLIGHT00"
         ],
         "gameId": null
       },
@@ -2017,25 +2037,6 @@
       },
       {
         "kind": "product",
-        "id": "JP0101-PPSA21159_00-DIGITALDELUXE000",
-        "name": "SILENT HILL f - Deluxe Edition",
-        "url": "https://store.playstation.com/it-it/product/JP0101-PPSA21159_00-DIGITALDELUXE000",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202505/0614/a01c437341a76a26b82895aa2028f53bafe73a787383ca63.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "PREMIUM_EDITION",
-        "priceCents": 3999,
-        "basePriceCents": 7999,
-        "discountPct": 50,
-        "plusTier": null,
-        "productIds": [
-          "JP0101-PPSA21159_00-DIGITALDELUXE000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP4176-PPSA24096_00-TITAN00000000000",
         "name": "Cronos: The New Dawn",
         "url": "https://store.playstation.com/it-it/product/EP4176-PPSA24096_00-TITAN00000000000",
@@ -2050,6 +2051,25 @@
         "plusTier": null,
         "productIds": [
           "EP4176-PPSA24096_00-TITAN00000000000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "JP0101-PPSA21159_00-DIGITALDELUXE000",
+        "name": "SILENT HILL f - Deluxe Edition",
+        "url": "https://store.playstation.com/it-it/product/JP0101-PPSA21159_00-DIGITALDELUXE000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202505/0614/a01c437341a76a26b82895aa2028f53bafe73a787383ca63.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "PREMIUM_EDITION",
+        "priceCents": 3999,
+        "basePriceCents": 7999,
+        "discountPct": 50,
+        "plusTier": null,
+        "productIds": [
+          "JP0101-PPSA21159_00-DIGITALDELUXE000"
         ],
         "gameId": null
       },
