@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T18:33:57.627Z",
+  "generatedAt": "2026-10-27T00:21:00.942Z",
   "lastCheckAt": "2026-10-26T18:33:46.666Z",
-  "lastDiscoverAt": "2026-10-26T00:26:59.318Z",
+  "lastDiscoverAt": "2026-10-27T00:20:51.555Z",
   "games": [
     {
       "id": 1,
@@ -621,7 +621,7 @@
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-26T18:33:57.625Z",
+    "fetchedAt": "2026-10-27T00:21:00.938Z",
     "top": [
       {
         "kind": "concept",
@@ -776,8 +776,8 @@
         "discountPct": 0,
         "plusTier": null,
         "productIds": [
-          "UP1821-PPSA10990_00-1887411884729257",
-          "UP1821-CUSA06122_00-0000040810600000"
+          "UP1821-CUSA06122_00-0000040810600000",
+          "UP1821-PPSA10990_00-1887411884729257"
         ],
         "gameId": null
       },
@@ -1225,25 +1225,6 @@
     "deals": [
       {
         "kind": "product",
-        "id": "EP9000-PPSA01968_00-DEATHSTRADCDDE01",
-        "name": "DEATH STRANDING DIRECTOR’S CUT Edizione deluxe digitale",
-        "url": "https://store.playstation.com/it-it/product/EP9000-PPSA01968_00-DEATHSTRADCDDE01",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202106/2214/7aFAQ28D5avzogf7TFg11ryH.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "PREMIUM_EDITION",
-        "priceCents": 599,
-        "basePriceCents": 5999,
-        "discountPct": 90,
-        "plusTier": null,
-        "productIds": [
-          "EP9000-PPSA01968_00-DEATHSTRADCDDE01"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP0082-CUSA27688_00-0299001029018095",
         "name": "Tomb Raider: Definitive Survivor Trilogy",
         "url": "https://store.playstation.com/it-it/product/EP0082-CUSA27688_00-0299001029018095",
@@ -1282,20 +1263,20 @@
       },
       {
         "kind": "product",
-        "id": "EP9000-CUSA08809_00-SOTC0000000000EU",
-        "name": "Shadow of the Colossus™",
-        "url": "https://store.playstation.com/it-it/product/EP9000-CUSA08809_00-SOTC0000000000EU",
-        "coverUrl": "https://image.api.playstation.com/vulcan/img/rnd/202010/2319/XtqYrG2LWer39eExYBsh9J5x.png",
+        "id": "EP0006-CUSA15090_00-NEEDFORSPEED2020",
+        "name": "Need for Speed™ Heat",
+        "url": "https://store.playstation.com/it-it/product/EP0006-CUSA15090_00-NEEDFORSPEED2020",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202210/3121/Xz6kd2CORZxe8JnfNJwvA35A.png",
         "platforms": [
           "PS4"
         ],
         "classification": "FULL_GAME",
-        "priceCents": 479,
-        "basePriceCents": 3999,
-        "discountPct": 88,
-        "plusTier": "Extra",
+        "priceCents": 699,
+        "basePriceCents": 6999,
+        "discountPct": 90,
+        "plusTier": null,
         "productIds": [
-          "EP9000-CUSA08809_00-SOTC0000000000EU"
+          "EP0006-CUSA15090_00-NEEDFORSPEED2020"
         ],
         "gameId": null
       },
@@ -1316,44 +1297,6 @@
         "plusTier": null,
         "productIds": [
           "EP1018-PPSA01603_00-HOGWARTSLGCYDELX"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
-        "id": "EP9000-CUSA00717_00-DETROIT000000001",
-        "name": "Detroit: Become Human",
-        "url": "https://store.playstation.com/it-it/product/EP9000-CUSA00717_00-DETROIT000000001",
-        "coverUrl": "https://image.api.playstation.com/vulcan/img/rnd/202010/2119/wl4DB5QGzlEHAXy1KLUVgOAu.png",
-        "platforms": [
-          "PS4"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 509,
-        "basePriceCents": 2999,
-        "discountPct": 83,
-        "plusTier": "Extra",
-        "productIds": [
-          "EP9000-CUSA00717_00-DETROIT000000001"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
-        "id": "EP9000-CUSA12982_00-MEDIEVILHD000001",
-        "name": "MediEvil",
-        "url": "https://store.playstation.com/it-it/product/EP9000-CUSA12982_00-MEDIEVILHD000001",
-        "coverUrl": "https://image.api.playstation.com/vulcan/img/cfn/11307Wm1JA9ApMArVhceTfFj0uYCsQj_rAHLUJA2Ku_rDY2sjiHAfntFA57HQqRBO7M6UPoVMfF2pbEUiA_AMefq5M4YSl4O.jpg",
-        "platforms": [
-          "PS4"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 509,
-        "basePriceCents": 2999,
-        "discountPct": 83,
-        "plusTier": "Extra",
-        "productIds": [
-          "EP9000-CUSA12982_00-MEDIEVILHD000001"
         ],
         "gameId": null
       },
@@ -1588,6 +1531,25 @@
         "plusTier": null,
         "productIds": [
           "EP0102-PPSA01443_00-DMC5SE0000000001"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP2770-CUSA16506_00-TWDTDS0000000000",
+        "name": "The Walking Dead: The Telltale Definitive Series",
+        "url": "https://store.playstation.com/it-it/product/EP2770-CUSA16506_00-TWDTDS0000000000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/img/cfn/11307xCvZNue3YqF9R_wahd74XC7v61UbHXiEsRuEVLSQj1ASCaVN4ZOF4Fq_nWRdC80-sMawBylntrEHFlq6Kel-DQsU-vb.png",
+        "platforms": [
+          "PS4"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 1249,
+        "basePriceCents": 4999,
+        "discountPct": 75,
+        "plusTier": null,
+        "productIds": [
+          "EP2770-CUSA16506_00-TWDTDS0000000000"
         ],
         "gameId": null
       },
@@ -1940,6 +1902,26 @@
       },
       {
         "kind": "product",
+        "id": "EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
+        "name": "Dead by Daylight PS4® & PS5®",
+        "url": "https://store.playstation.com/it-it/product/EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0113/e98238835ada32e22b4e21455b4206cacd19070ea359763f.png",
+        "platforms": [
+          "PS4",
+          "PS5"
+        ],
+        "classification": "PREMIUM_EDITION",
+        "priceCents": 1199,
+        "basePriceCents": 2999,
+        "discountPct": 60,
+        "plusTier": "Extra",
+        "productIds": [
+          "EP3367-PPSA02049_00-DEADBYDAYLIGHT00"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
         "id": "EP0102-PPSA07412_00-BHB0000000000003",
         "name": "Resident Evil Remake Trilogy",
         "url": "https://store.playstation.com/it-it/product/EP0102-PPSA07412_00-BHB0000000000003",
@@ -2225,6 +2207,25 @@
         "plusTier": null,
         "productIds": [
           "EP0102-PPSA02633_00-SF60000YEARS12FE"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "UB2030-PPSA37997_00-0637918884194509",
+        "name": "Truck Simulator Euro Roads 2026",
+        "url": "https://store.playstation.com/it-it/product/UB2030-PPSA37997_00-0637918884194509",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/0812/b35eb94bfc6f2723c4570be353bc7f2b6828f9722fc28596.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 1299,
+        "basePriceCents": 1999,
+        "discountPct": 35,
+        "plusTier": "Ulteriore risparmio del 5%",
+        "productIds": [
+          "UB2030-PPSA37997_00-0637918884194509"
         ],
         "gameId": null
       },
