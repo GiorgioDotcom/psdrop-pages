@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T12:11:25.614Z",
-  "lastCheckAt": "2026-10-27T12:11:15.519Z",
+  "generatedAt": "2026-10-27T18:13:41.952Z",
+  "lastCheckAt": "2026-10-27T18:13:31.294Z",
   "lastDiscoverAt": "2026-10-27T00:20:51.555Z",
   "games": [
     {
@@ -315,6 +315,10 @@
         {
           "at": "2026-10-27T12:11:04.280Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-10-27T18:13:19.302Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -411,6 +415,10 @@
         {
           "at": "2026-10-27T12:11:04.280Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-10-27T18:13:19.302Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -506,6 +514,10 @@
         {
           "at": "2026-10-27T12:11:04.280Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-10-27T18:13:19.302Z",
+          "priceCents": 5999
         }
       ]
     },
@@ -580,6 +592,10 @@
         },
         {
           "at": "2026-10-27T12:11:04.280Z",
+          "priceCents": 499
+        },
+        {
+          "at": "2026-10-27T18:13:19.302Z",
           "priceCents": 499
         }
       ]
@@ -656,12 +672,16 @@
         {
           "at": "2026-10-27T12:11:04.280Z",
           "priceCents": 499
+        },
+        {
+          "at": "2026-10-27T18:13:19.302Z",
+          "priceCents": 499
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-27T12:11:25.613Z",
+    "fetchedAt": "2026-10-27T18:13:41.929Z",
     "top": [
       {
         "kind": "concept",
@@ -1944,7 +1964,7 @@
         "id": "EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
         "name": "Dead by Daylight PS4® & PS5®",
         "url": "https://store.playstation.com/it-it/product/EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0113/e98238835ada32e22b4e21455b4206cacd19070ea359763f.png",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2118/4448362515c1c03644cae01d08e4784b30224f81e6c25514.png",
         "platforms": [
           "PS4",
           "PS5"
