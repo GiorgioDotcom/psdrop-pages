@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T05:49:49.306Z",
-  "lastCheckAt": "2026-10-28T05:49:38.457Z",
+  "generatedAt": "2026-10-28T11:55:56.881Z",
+  "lastCheckAt": "2026-10-28T11:55:46.307Z",
   "lastDiscoverAt": "2026-10-28T00:11:29.519Z",
   "games": [
     {
@@ -327,6 +327,10 @@
         {
           "at": "2026-10-28T05:49:27.700Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-10-28T11:55:35.728Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -435,6 +439,10 @@
         {
           "at": "2026-10-28T05:49:27.700Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-10-28T11:55:35.728Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -542,6 +550,10 @@
         {
           "at": "2026-10-28T05:49:27.700Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-10-28T11:55:35.728Z",
+          "priceCents": 5999
         }
       ]
     },
@@ -628,6 +640,10 @@
         },
         {
           "at": "2026-10-28T05:49:27.700Z",
+          "priceCents": 499
+        },
+        {
+          "at": "2026-10-28T11:55:35.728Z",
           "priceCents": 499
         }
       ]
@@ -716,12 +732,16 @@
         {
           "at": "2026-10-28T05:49:27.700Z",
           "priceCents": 499
+        },
+        {
+          "at": "2026-10-28T11:55:35.728Z",
+          "priceCents": 499
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-28T05:49:49.302Z",
+    "fetchedAt": "2026-10-28T11:55:56.878Z",
     "top": [
       {
         "kind": "concept",
@@ -758,8 +778,8 @@
           "EP0002-PPSA07950_00-CODMW4STANDARD01",
           "EP0002-PPSA07950_00-CODMW4VAULT00001",
           "EP0002-PPSA07950_00-CODBO7CROSSGEN01",
-          "EP0002-PPSA07950_00-CODMW3CROSSGEN01",
           "EP0002-PPSA07950_00-CODMW2CROSSGEN01",
+          "EP0002-PPSA07950_00-CODMW3CROSSGEN01",
           "EP0002-PPSA07950_00-CODBO6CROSSGEN01",
           "EP0002-PPSA07950_00-CODWZ2BUNDLE0001"
         ],
@@ -826,28 +846,6 @@
       },
       {
         "kind": "concept",
-        "id": "10002427",
-        "name": "eFootball™",
-        "url": "https://store.playstation.com/it-it/concept/10002427",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/1804/51aba58072e55f50d98061563deb9610226e0f18ba149787.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 0,
-        "basePriceCents": 0,
-        "discountPct": 0,
-        "plusTier": null,
-        "productIds": [
-          "EP0101-CUSA26996_00-EDITION000000012",
-          "EP0101-CUSA26996_00-EDITION000000014",
-          "EP0101-CUSA26996_00-EDITION000000015",
-          "EP0101-CUSA26996_00-EDITION000000013",
-          "EP0101-CUSA26996_00-EFOOTBALL0000000",
-          "EP0101-PPSA03073_00-EFOOTBALL0000000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
         "id": "10015321",
         "name": "BeamNG.drive",
         "url": "https://store.playstation.com/it-it/concept/10015321",
@@ -860,6 +858,28 @@
         "plusTier": null,
         "productIds": [
           "UP2483-PPSA30451_00-0410525202069743"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "concept",
+        "id": "10002427",
+        "name": "eFootball™",
+        "url": "https://store.playstation.com/it-it/concept/10002427",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/1804/51aba58072e55f50d98061563deb9610226e0f18ba149787.png",
+        "platforms": [],
+        "classification": null,
+        "priceCents": 0,
+        "basePriceCents": 0,
+        "discountPct": 0,
+        "plusTier": null,
+        "productIds": [
+          "EP0101-CUSA26996_00-EDITION000000014",
+          "EP0101-CUSA26996_00-EDITION000000012",
+          "EP0101-CUSA26996_00-EDITION000000015",
+          "EP0101-CUSA26996_00-EDITION000000013",
+          "EP0101-PPSA03073_00-EFOOTBALL0000000",
+          "EP0101-CUSA26996_00-EFOOTBALL0000000"
         ],
         "gameId": null
       },
@@ -894,8 +914,8 @@
         "discountPct": 0,
         "plusTier": null,
         "productIds": [
-          "UP1821-CUSA06122_00-0000040810600000",
-          "UP1821-PPSA10990_00-1887411884729257"
+          "UP1821-PPSA10990_00-1887411884729257",
+          "UP1821-CUSA06122_00-0000040810600000"
         ],
         "gameId": null
       },
@@ -1500,6 +1520,25 @@
       },
       {
         "kind": "product",
+        "id": "EP4356-PPSA04314_00-RIDE5FULLGAME000",
+        "name": "RIDE 5",
+        "url": "https://store.playstation.com/it-it/product/EP4356-PPSA04314_00-RIDE5FULLGAME000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202303/3115/c429ce8316b8c616efcb0587e5f18e9820a9f406bb88a08c.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 1199,
+        "basePriceCents": 5999,
+        "discountPct": 80,
+        "plusTier": null,
+        "productIds": [
+          "EP4356-PPSA04314_00-RIDE5FULLGAME000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
         "id": "EP0102-PPSA07412_00-RE4RMAINGAME0000",
         "name": "Resident Evil 4 PS4 & PS5",
         "url": "https://store.playstation.com/it-it/product/EP0102-PPSA07412_00-RE4RMAINGAME0000",
@@ -1650,25 +1689,6 @@
         "plusTier": null,
         "productIds": [
           "EP2770-CUSA16506_00-TWDTDS0000000000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
-        "id": "EP1018-PPSA07571_00-MK1DEFINED000000",
-        "name": "Mortal Kombat™ 1: Definitive Edition",
-        "url": "https://store.playstation.com/it-it/product/EP1018-PPSA07571_00-MK1DEFINED000000",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202505/0121/580864f66738607a1425a3d7814efb6ea609d0b035c368b5.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "PREMIUM_EDITION",
-        "priceCents": 1749,
-        "basePriceCents": 6999,
-        "discountPct": 75,
-        "plusTier": null,
-        "productIds": [
-          "EP1018-PPSA07571_00-MK1DEFINED000000"
         ],
         "gameId": null
       },
