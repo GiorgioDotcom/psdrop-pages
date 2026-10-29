@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T20:33:17.674Z",
-  "lastCheckAt": "2026-10-28T20:33:07.438Z",
+  "generatedAt": "2026-10-29T02:32:11.175Z",
+  "lastCheckAt": "2026-10-29T02:32:01.364Z",
   "lastDiscoverAt": "2026-10-28T14:32:11.174Z",
   "games": [
     {
@@ -339,6 +339,10 @@
         {
           "at": "2026-10-28T20:32:54.964Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-10-29T02:31:48.926Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -459,6 +463,10 @@
         {
           "at": "2026-10-28T20:32:54.964Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-10-29T02:31:48.926Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -578,6 +586,10 @@
         {
           "at": "2026-10-28T20:32:54.964Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-10-29T02:31:48.926Z",
+          "priceCents": 5999
         }
       ]
     },
@@ -676,6 +688,10 @@
         },
         {
           "at": "2026-10-28T20:32:54.964Z",
+          "priceCents": 499
+        },
+        {
+          "at": "2026-10-29T02:31:48.926Z",
           "priceCents": 499
         }
       ]
@@ -776,12 +792,16 @@
         {
           "at": "2026-10-28T20:32:54.964Z",
           "priceCents": 499
+        },
+        {
+          "at": "2026-10-29T02:31:48.926Z",
+          "priceCents": 499
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-28T20:33:17.670Z",
+    "fetchedAt": "2026-10-29T02:32:11.172Z",
     "top": [
       {
         "kind": "concept",
@@ -799,6 +819,24 @@
           "UP0006-PPSA34015_00-27STANDARDBUNDLE",
           "UP0006-PPSA34015_00-27ULTIMATEBUNDLE",
           "UP0006-PPSA34015_00-FC27FCLIVEBUNDLE"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "concept",
+        "id": "10000730",
+        "name": "Grand Theft Auto VI",
+        "url": "https://store.playstation.com/it-it/concept/10000730",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/9f51f0ccdb65bd29c36a0907a738c2902a712f03e2fd6470.png",
+        "platforms": [],
+        "classification": null,
+        "priceCents": 9999,
+        "basePriceCents": 9999,
+        "discountPct": 0,
+        "plusTier": null,
+        "productIds": [
+          "EP1004-PPSA01547_00-GTAVIULTIMATE001",
+          "EP1004-PPSA01547_00-GTAVISTANDARD001"
         ],
         "gameId": null
       },
@@ -822,24 +860,6 @@
           "EP0002-PPSA07950_00-CODMW3CROSSGEN01",
           "EP0002-PPSA07950_00-CODBO6CROSSGEN01",
           "EP0002-PPSA07950_00-CODWZ2BUNDLE0001"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
-        "id": "10000730",
-        "name": "Grand Theft Auto VI",
-        "url": "https://store.playstation.com/it-it/concept/10000730",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/9f51f0ccdb65bd29c36a0907a738c2902a712f03e2fd6470.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 9999,
-        "basePriceCents": 9999,
-        "discountPct": 0,
-        "plusTier": null,
-        "productIds": [
-          "EP1004-PPSA01547_00-GTAVIULTIMATE001",
-          "EP1004-PPSA01547_00-GTAVISTANDARD001"
         ],
         "gameId": null
       },
@@ -1357,25 +1377,6 @@
         "plusTier": "Premium",
         "productIds": [
           "HP1597-PPSA25717_00-ENDOFABYSS000000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
-        "id": "10012984",
-        "name": "ANOMALITH",
-        "url": "https://store.playstation.com/it-it/concept/10012984",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2706/866f5527fe710161d7c0009bd76df00f252fa846f6294093.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 4999,
-        "basePriceCents": 4999,
-        "discountPct": 0,
-        "plusTier": null,
-        "productIds": [
-          "EP2640-PPSA29380_00-DDXEDITION000000",
-          "EP2640-PPSA29380_00-0000000000000000",
-          "EP2640-PPSA35815_00-DEMO000000000000"
         ],
         "gameId": null
       }
@@ -2098,6 +2099,26 @@
       },
       {
         "kind": "product",
+        "id": "EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
+        "name": "Dead by Daylight PS4® & PS5®",
+        "url": "https://store.playstation.com/it-it/product/EP3367-PPSA02049_00-DEADBYDAYLIGHT00",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2118/4448362515c1c03644cae01d08e4784b30224f81e6c25514.png",
+        "platforms": [
+          "PS4",
+          "PS5"
+        ],
+        "classification": "PREMIUM_EDITION",
+        "priceCents": 1199,
+        "basePriceCents": 2999,
+        "discountPct": 60,
+        "plusTier": "Extra",
+        "productIds": [
+          "EP3367-PPSA02049_00-DEADBYDAYLIGHT00"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
         "id": "EP0102-PPSA07412_00-BHB0000000000003",
         "name": "Resident Evil Remake Trilogy",
         "url": "https://store.playstation.com/it-it/product/EP0102-PPSA07412_00-BHB0000000000003",
@@ -2253,25 +2274,6 @@
       },
       {
         "kind": "product",
-        "id": "EP2911-PPSA24003_00-DLTBDELUXE000000",
-        "name": "Dying Light: The Beast Deluxe Edition",
-        "url": "https://store.playstation.com/it-it/product/EP2911-PPSA24003_00-DLTBDELUXE000000",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1710/756ea11bae4aa2e1af95b779079a58e1d56b6d3fd106789d.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "GAME_BUNDLE",
-        "priceCents": 3999,
-        "basePriceCents": 7999,
-        "discountPct": 50,
-        "plusTier": null,
-        "productIds": [
-          "EP2911-PPSA24003_00-DLTBDELUXE000000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP0700-PPSA05143_00-LITTLENIGHTS3000",
         "name": "Little Nightmares III",
         "url": "https://store.playstation.com/it-it/product/EP0700-PPSA05143_00-LITTLENIGHTS3000",
@@ -2287,6 +2289,25 @@
         "plusTier": null,
         "productIds": [
           "EP0700-PPSA05143_00-LITTLENIGHTS3000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP2911-PPSA24003_00-DLTBDELUXE000000",
+        "name": "Dying Light: The Beast Deluxe Edition",
+        "url": "https://store.playstation.com/it-it/product/EP2911-PPSA24003_00-DLTBDELUXE000000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1710/756ea11bae4aa2e1af95b779079a58e1d56b6d3fd106789d.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "GAME_BUNDLE",
+        "priceCents": 3999,
+        "basePriceCents": 7999,
+        "discountPct": 50,
+        "plusTier": null,
+        "productIds": [
+          "EP2911-PPSA24003_00-DLTBDELUXE000000"
         ],
         "gameId": null
       },
@@ -2344,25 +2365,6 @@
         "plusTier": null,
         "productIds": [
           "UP1003-PPSA24884_00-PREMIUMBUNDLE000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
-        "id": "UP0006-PPSA34063_00-NHL27STANDEDITON",
-        "name": "NHL 27 Standard Edition PS5",
-        "url": "https://store.playstation.com/it-it/product/UP0006-PPSA34063_00-NHL27STANDEDITON",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202607/0714/6e3afa15d13867fd4e3e3667ce1220a59008c1bbb9cd704b.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "GAME_BUNDLE",
-        "priceCents": 4799,
-        "basePriceCents": 7999,
-        "discountPct": 40,
-        "plusTier": null,
-        "productIds": [
-          "UP0006-PPSA34063_00-NHL27STANDEDITON"
         ],
         "gameId": null
       },
@@ -2439,26 +2441,6 @@
         "plusTier": null,
         "productIds": [
           "EP9000-PPSA29488_00-0000000000000000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
-        "id": "UP0006-PPSA34015_00-27ULTIMATEBUNDLE",
-        "name": "EA SPORTS FC™ 27 Ultimate Edition per PS4 e PS5",
-        "url": "https://store.playstation.com/it-it/product/UP0006-PPSA34015_00-27ULTIMATEBUNDLE",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2322/78e0ba12f88a79c454b6b17d1638f2ae0b2943f1dbc98a17.png",
-        "platforms": [
-          "PS4",
-          "PS5"
-        ],
-        "classification": "PREMIUM_EDITION",
-        "priceCents": 8249,
-        "basePriceCents": 10999,
-        "discountPct": 25,
-        "plusTier": null,
-        "productIds": [
-          "UP0006-PPSA34015_00-27ULTIMATEBUNDLE"
         ],
         "gameId": null
       },
