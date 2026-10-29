@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T08:37:21.374Z",
-  "lastCheckAt": "2026-10-29T08:37:10.637Z",
+  "generatedAt": "2026-10-29T14:25:55.729Z",
+  "lastCheckAt": "2026-10-29T14:25:46.310Z",
   "lastDiscoverAt": "2026-10-28T14:32:11.174Z",
   "games": [
     {
@@ -347,6 +347,10 @@
         {
           "at": "2026-10-29T08:36:57.655Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-10-29T14:25:34.536Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -475,6 +479,10 @@
         {
           "at": "2026-10-29T08:36:57.655Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-10-29T14:25:34.536Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -602,6 +610,10 @@
         {
           "at": "2026-10-29T08:36:57.655Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-10-29T14:25:34.536Z",
+          "priceCents": 5999
         }
       ]
     },
@@ -708,6 +720,10 @@
         },
         {
           "at": "2026-10-29T08:36:57.655Z",
+          "priceCents": 499
+        },
+        {
+          "at": "2026-10-29T14:25:34.536Z",
           "priceCents": 499
         }
       ]
@@ -816,12 +832,16 @@
         {
           "at": "2026-10-29T08:36:57.655Z",
           "priceCents": 499
+        },
+        {
+          "at": "2026-10-29T14:25:34.536Z",
+          "priceCents": 499
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-29T08:37:21.371Z",
+    "fetchedAt": "2026-10-29T14:25:55.725Z",
     "top": [
       {
         "kind": "concept",
@@ -1076,25 +1096,6 @@
       },
       {
         "kind": "concept",
-        "id": "10018186",
-        "name": "Castlevania: Belmont's Curse",
-        "url": "https://store.playstation.com/it-it/concept/10018186",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2005/4074e46383e491ab25df83141a556f69aa7c005fa92ffa4b.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 2999,
-        "basePriceCents": 2999,
-        "discountPct": 0,
-        "plusTier": null,
-        "productIds": [
-          "JP0101-PPSA35399_00-CVBCAPP000000000",
-          "JP0101-PPSA35399_00-CVBCDXDL00000000",
-          "JP0101-PPSA37039_00-CVBCDEMO00000000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
         "id": "10011942",
         "name": "ACE COMBAT 8: WINGS OF THEVE",
         "url": "https://store.playstation.com/it-it/concept/10011942",
@@ -1126,6 +1127,25 @@
         "productIds": [
           "EP2377-PPSA29934_00-PLANETZOO2000000",
           "EP2377-PPSA29934_00-PZ2DELUXEEDITION"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "concept",
+        "id": "10018186",
+        "name": "Castlevania: Belmont's Curse",
+        "url": "https://store.playstation.com/it-it/concept/10018186",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2005/4074e46383e491ab25df83141a556f69aa7c005fa92ffa4b.png",
+        "platforms": [],
+        "classification": null,
+        "priceCents": 2999,
+        "basePriceCents": 2999,
+        "discountPct": 0,
+        "plusTier": null,
+        "productIds": [
+          "JP0101-PPSA35399_00-CVBCAPP000000000",
+          "JP0101-PPSA35399_00-CVBCDXDL00000000",
+          "JP0101-PPSA37039_00-CVBCDEMO00000000"
         ],
         "gameId": null
       },
@@ -1259,24 +1279,6 @@
       },
       {
         "kind": "concept",
-        "id": "10008946",
-        "name": "Way of the Hunter 2",
-        "url": "https://store.playstation.com/it-it/concept/10008946",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202602/2617/cd05896e5a75c506dff3f1e5cdd90c59f12b72d9f1474e33.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 3999,
-        "basePriceCents": 3999,
-        "discountPct": 0,
-        "plusTier": "Premium",
-        "productIds": [
-          "EP4389-PPSA17911_00-WAYOFTHEHUNTER02",
-          "EP4389-PPSA17911_00-WOTH2DELUXEDITIO"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
         "id": "10018448",
         "name": "Remothered: Red Nun's Legacy",
         "url": "https://store.playstation.com/it-it/concept/10018448",
@@ -1343,6 +1345,24 @@
         "plusTier": null,
         "productIds": [
           "EP4064-PPSA34013_00-0360775367129469"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "concept",
+        "id": "10010914",
+        "name": "Hunting Simulator 3",
+        "url": "https://store.playstation.com/it-it/concept/10010914",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202411/1916/811f15bab7c1241cd2c5973839d3e927805fa2b40ce2283b.png",
+        "platforms": [],
+        "classification": null,
+        "priceCents": 4999,
+        "basePriceCents": 4999,
+        "discountPct": 0,
+        "plusTier": null,
+        "productIds": [
+          "EP6665-PPSA23129_00-HS30000000000000",
+          "EP6665-PPSA23129_00-HS300DELUXE00001"
         ],
         "gameId": null
       },
