@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T14:25:55.729Z",
+  "generatedAt": "2026-10-29T14:47:28.757Z",
   "lastCheckAt": "2026-10-29T14:25:46.310Z",
-  "lastDiscoverAt": "2026-10-28T14:32:11.174Z",
+  "lastDiscoverAt": "2026-10-29T14:47:18.514Z",
   "games": [
     {
       "id": 1,
@@ -841,7 +841,7 @@
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-29T14:25:55.725Z",
+    "fetchedAt": "2026-10-29T14:47:28.752Z",
     "top": [
       {
         "kind": "concept",
