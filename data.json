@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T14:11:05.296Z",
+  "generatedAt": "2026-10-31T19:46:09.662Z",
   "lastCheckAt": "2026-10-31T14:10:55.516Z",
-  "lastDiscoverAt": "2026-10-30T19:55:07.088Z",
+  "lastDiscoverAt": "2026-10-31T19:45:59.312Z",
   "games": [
     {
       "id": 1,
@@ -1001,7 +1001,7 @@
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-31T14:11:05.292Z",
+    "fetchedAt": "2026-10-31T19:46:09.657Z",
     "top": [
       {
         "kind": "concept",
@@ -1121,8 +1121,8 @@
           "EP0101-CUSA26996_00-EDITION000000015",
           "EP0101-CUSA26996_00-EDITION000000013",
           "EP0101-CUSA26996_00-EDITION000000012",
-          "EP0101-PPSA03073_00-EFOOTBALL0000000",
-          "EP0101-CUSA26996_00-EFOOTBALL0000000"
+          "EP0101-CUSA26996_00-EFOOTBALL0000000",
+          "EP0101-PPSA03073_00-EFOOTBALL0000000"
         ],
         "gameId": null
       },
