@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T19:55:18.565Z",
-  "lastCheckAt": "2026-10-30T19:49:59.325Z",
+  "generatedAt": "2026-10-31T02:02:04.837Z",
+  "lastCheckAt": "2026-10-31T02:01:55.215Z",
   "lastDiscoverAt": "2026-10-30T19:55:07.088Z",
   "games": [
     {
@@ -371,6 +371,10 @@
         {
           "at": "2026-10-30T19:49:46.913Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-10-31T02:01:43.338Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -523,6 +527,10 @@
         {
           "at": "2026-10-30T19:49:46.913Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-10-31T02:01:43.338Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -674,6 +682,10 @@
         {
           "at": "2026-10-30T19:49:46.913Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-10-31T02:01:43.338Z",
+          "priceCents": 5999
         }
       ]
     },
@@ -804,6 +816,10 @@
         },
         {
           "at": "2026-10-30T19:49:46.913Z",
+          "priceCents": 499
+        },
+        {
+          "at": "2026-10-31T02:01:43.338Z",
           "priceCents": 499
         }
       ]
@@ -936,12 +952,16 @@
         {
           "at": "2026-10-30T19:49:46.913Z",
           "priceCents": 499
+        },
+        {
+          "at": "2026-10-31T02:01:43.338Z",
+          "priceCents": 499
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-10-30T19:55:18.561Z",
+    "fetchedAt": "2026-10-31T02:02:04.835Z",
     "top": [
       {
         "kind": "concept",
@@ -2430,25 +2450,6 @@
       },
       {
         "kind": "product",
-        "id": "EP2911-PPSA24003_00-DLTBDELUXE000000",
-        "name": "Dying Light: The Beast Deluxe Edition",
-        "url": "https://store.playstation.com/it-it/product/EP2911-PPSA24003_00-DLTBDELUXE000000",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1710/756ea11bae4aa2e1af95b779079a58e1d56b6d3fd106789d.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "GAME_BUNDLE",
-        "priceCents": 3999,
-        "basePriceCents": 7999,
-        "discountPct": 50,
-        "plusTier": null,
-        "productIds": [
-          "EP2911-PPSA24003_00-DLTBDELUXE000000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "JP0101-PPSA21159_00-DIGITALDELUXE000",
         "name": "SILENT HILL f - Deluxe Edition",
         "url": "https://store.playstation.com/it-it/product/JP0101-PPSA21159_00-DIGITALDELUXE000",
@@ -2482,6 +2483,25 @@
         "plusTier": null,
         "productIds": [
           "UP1003-PPSA26786_00-PREMIUMEDITION00"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP2911-PPSA24003_00-DLTBDELUXE000000",
+        "name": "Dying Light: The Beast Deluxe Edition",
+        "url": "https://store.playstation.com/it-it/product/EP2911-PPSA24003_00-DLTBDELUXE000000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1710/756ea11bae4aa2e1af95b779079a58e1d56b6d3fd106789d.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "GAME_BUNDLE",
+        "priceCents": 3999,
+        "basePriceCents": 7999,
+        "discountPct": 50,
+        "plusTier": null,
+        "productIds": [
+          "EP2911-PPSA24003_00-DLTBDELUXE000000"
         ],
         "gameId": null
       },
@@ -2658,25 +2678,6 @@
       },
       {
         "kind": "product",
-        "id": "EP3430-PPSA36921_00-0282016795684965",
-        "name": "No More Room in Hell 2",
-        "url": "https://store.playstation.com/it-it/product/EP3430-PPSA36921_00-0282016795684965",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202604/1416/6752ca9f0e61258b1b5646d77124c464e49b790fc241f1ab.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 2319,
-        "basePriceCents": 2899,
-        "discountPct": 20,
-        "plusTier": null,
-        "productIds": [
-          "EP3430-PPSA36921_00-0282016795684965"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP4133-PPSA30601_00-RESONANCEAPLAGUE",
         "name": "Resonance: A Plague Tale Legacy",
         "url": "https://store.playstation.com/it-it/product/EP4133-PPSA30601_00-RESONANCEAPLAGUE",
@@ -2691,6 +2692,25 @@
         "plusTier": "Premium",
         "productIds": [
           "EP4133-PPSA30601_00-RESONANCEAPLAGUE"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP3430-PPSA36921_00-0282016795684965",
+        "name": "No More Room in Hell 2",
+        "url": "https://store.playstation.com/it-it/product/EP3430-PPSA36921_00-0282016795684965",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202604/1416/6752ca9f0e61258b1b5646d77124c464e49b790fc241f1ab.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 2319,
+        "basePriceCents": 2899,
+        "discountPct": 20,
+        "plusTier": null,
+        "productIds": [
+          "EP3430-PPSA36921_00-0282016795684965"
         ],
         "gameId": null
       },
