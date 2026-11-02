@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T01:50:35.608Z",
-  "lastCheckAt": "2026-11-01T20:24:45.930Z",
+  "generatedAt": "2026-11-02T02:36:58.429Z",
+  "lastCheckAt": "2026-11-02T02:36:48.226Z",
   "lastDiscoverAt": "2026-11-02T01:50:35.390Z",
   "games": [
     {
@@ -403,6 +403,10 @@
         {
           "at": "2026-11-01T20:24:32.945Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-11-02T02:36:36.976Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -587,6 +591,10 @@
         {
           "at": "2026-11-01T20:24:32.945Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-11-02T02:36:36.976Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -770,6 +778,10 @@
         {
           "at": "2026-11-01T20:24:32.945Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-11-02T02:36:36.976Z",
+          "priceCents": 5999
         }
       ]
     },
@@ -932,6 +944,10 @@
         },
         {
           "at": "2026-11-01T20:24:32.945Z",
+          "priceCents": 499
+        },
+        {
+          "at": "2026-11-02T02:36:36.976Z",
           "priceCents": 499
         }
       ]
@@ -1096,12 +1112,16 @@
         {
           "at": "2026-11-01T20:24:32.945Z",
           "priceCents": 499
+        },
+        {
+          "at": "2026-11-02T02:36:36.976Z",
+          "priceCents": 499
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-11-01T20:24:55.814Z",
+    "fetchedAt": "2026-11-02T02:36:58.426Z",
     "top": [
       {
         "kind": "concept",
@@ -2838,25 +2858,6 @@
       },
       {
         "kind": "product",
-        "id": "EP3430-PPSA36921_00-0282016795684965",
-        "name": "No More Room in Hell 2",
-        "url": "https://store.playstation.com/it-it/product/EP3430-PPSA36921_00-0282016795684965",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202604/1416/6752ca9f0e61258b1b5646d77124c464e49b790fc241f1ab.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 2319,
-        "basePriceCents": 2899,
-        "discountPct": 20,
-        "plusTier": null,
-        "productIds": [
-          "EP3430-PPSA36921_00-0282016795684965"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "UP0102-PPSA02530_00-PRAGMATA00000000",
         "name": "PRAGMATA",
         "url": "https://store.playstation.com/it-it/product/UP0102-PPSA02530_00-PRAGMATA00000000",
@@ -2871,6 +2872,25 @@
         "plusTier": null,
         "productIds": [
           "UP0102-PPSA02530_00-PRAGMATA00000000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP3430-PPSA36921_00-0282016795684965",
+        "name": "No More Room in Hell 2",
+        "url": "https://store.playstation.com/it-it/product/EP3430-PPSA36921_00-0282016795684965",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202604/1416/6752ca9f0e61258b1b5646d77124c464e49b790fc241f1ab.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 2319,
+        "basePriceCents": 2899,
+        "discountPct": 20,
+        "plusTier": null,
+        "productIds": [
+          "EP3430-PPSA36921_00-0282016795684965"
         ],
         "gameId": null
       },
