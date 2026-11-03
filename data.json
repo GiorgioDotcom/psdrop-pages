@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T19:45:15.340Z",
-  "lastCheckAt": "2026-11-03T14:53:20.229Z",
+  "generatedAt": "2026-11-03T20:49:00.523Z",
+  "lastCheckAt": "2026-11-03T20:48:50.050Z",
   "lastDiscoverAt": "2026-11-03T19:45:04.647Z",
   "games": [
     {
@@ -431,6 +431,10 @@
         {
           "at": "2026-11-03T14:53:06.812Z",
           "priceCents": 3999
+        },
+        {
+          "at": "2026-11-03T20:48:38.333Z",
+          "priceCents": 3999
         }
       ]
     },
@@ -643,6 +647,10 @@
         {
           "at": "2026-11-03T14:53:06.812Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-11-03T20:48:38.333Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -854,6 +862,10 @@
         {
           "at": "2026-11-03T14:53:06.812Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-11-03T20:48:38.333Z",
+          "priceCents": 5999
         }
       ]
     },
@@ -1044,6 +1056,10 @@
         },
         {
           "at": "2026-11-03T14:53:06.812Z",
+          "priceCents": 499
+        },
+        {
+          "at": "2026-11-03T20:48:38.333Z",
           "priceCents": 499
         }
       ]
@@ -1236,12 +1252,16 @@
         {
           "at": "2026-11-03T14:53:06.812Z",
           "priceCents": 499
+        },
+        {
+          "at": "2026-11-03T20:48:38.333Z",
+          "priceCents": 499
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-11-03T19:45:15.336Z",
+    "fetchedAt": "2026-11-03T20:49:00.519Z",
     "top": [
       {
         "kind": "concept",
@@ -1622,6 +1642,21 @@
       },
       {
         "kind": "concept",
+        "id": "10018232",
+        "name": "The Wolf Among Us Remastered",
+        "url": "https://store.playstation.com/it-it/concept/10018232",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2618/3d33671bb8c21ca0460c8e4c44f3f8f5350d2e9337d51112.png",
+        "platforms": [],
+        "classification": null,
+        "priceCents": 2499,
+        "basePriceCents": 2499,
+        "discountPct": 0,
+        "plusTier": "Risparmio del 20%",
+        "productIds": [],
+        "gameId": null
+      },
+      {
+        "kind": "concept",
         "id": "10017122",
         "name": "Disney/Pixar Toy Story 3 Complete Edition",
         "url": "https://store.playstation.com/it-it/concept/10017122",
@@ -1798,23 +1833,6 @@
         "plusTier": "Premium",
         "productIds": [
           "UP0102-PPSA38465_00-CLASSICDINO20001"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "concept",
-        "id": "10019847",
-        "name": "Queen's Domain",
-        "url": "https://store.playstation.com/it-it/concept/10019847",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0107/d48e2ad94cefa82e44285ffc1a47ac1981881802d9582b34.png",
-        "platforms": [],
-        "classification": null,
-        "priceCents": 1999,
-        "basePriceCents": 1999,
-        "discountPct": 0,
-        "plusTier": null,
-        "productIds": [
-          "EP7107-PPSA38239_00-0207824653085036"
         ],
         "gameId": null
       }
