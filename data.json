@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T09:09:10.897Z",
-  "lastCheckAt": "2026-11-05T09:09:00.667Z",
+  "generatedAt": "2026-11-05T15:18:06.757Z",
+  "lastCheckAt": "2026-11-05T15:17:56.809Z",
   "lastDiscoverAt": "2026-11-04T19:41:25.414Z",
   "games": [
     {
@@ -440,6 +440,10 @@
         {
           "at": "2026-11-05T09:08:48.128Z",
           "priceCents": 4999
+        },
+        {
+          "at": "2026-11-05T15:17:43.865Z",
+          "priceCents": 4999
         }
       ]
     },
@@ -692,6 +696,10 @@
         {
           "at": "2026-11-05T09:08:48.128Z",
           "priceCents": 9999
+        },
+        {
+          "at": "2026-11-05T15:17:43.865Z",
+          "priceCents": 9999
         }
       ]
     },
@@ -931,6 +939,10 @@
         {
           "at": "2026-11-05T09:08:48.128Z",
           "priceCents": 5999
+        },
+        {
+          "at": "2026-11-05T15:17:43.865Z",
+          "priceCents": 5999
         }
       ]
     },
@@ -1149,6 +1161,10 @@
         },
         {
           "at": "2026-11-05T09:08:48.128Z",
+          "priceCents": 1999
+        },
+        {
+          "at": "2026-11-05T15:17:43.865Z",
           "priceCents": 1999
         }
       ]
@@ -1369,12 +1385,16 @@
         {
           "at": "2026-11-05T09:08:48.128Z",
           "priceCents": 1999
+        },
+        {
+          "at": "2026-11-05T15:17:43.865Z",
+          "priceCents": 1999
         }
       ]
     }
   },
   "storefront": {
-    "fetchedAt": "2026-11-05T09:09:10.894Z",
+    "fetchedAt": "2026-11-05T15:18:06.753Z",
     "top": [
       {
         "kind": "concept",
@@ -2065,6 +2085,44 @@
       },
       {
         "kind": "product",
+        "id": "JP0101-PPSA21159_00-MAINGAME00000000",
+        "name": "SILENT HILL f",
+        "url": "https://store.playstation.com/it-it/product/JP0101-PPSA21159_00-MAINGAME00000000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202505/0704/e81b1e0b80b2001d8a5070c5c465cbc7246e02d1da39fe76.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 1959,
+        "basePriceCents": 6999,
+        "discountPct": 72,
+        "plusTier": null,
+        "productIds": [
+          "JP0101-PPSA21159_00-MAINGAME00000000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP0101-PPSA08709_00-MAINGAME00000000",
+        "name": "SILENT HILL 2",
+        "url": "https://store.playstation.com/it-it/product/EP0101-PPSA08709_00-MAINGAME00000000",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202210/2000/IgwsFz9BiBrFvyV7pIWpoVgd.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 1959,
+        "basePriceCents": 6999,
+        "discountPct": 72,
+        "plusTier": null,
+        "productIds": [
+          "EP0101-PPSA08709_00-MAINGAME00000000"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
         "id": "EP0238-CUSA12398_00-THEFOREST0000000",
         "name": "The Forest",
         "url": "https://store.playstation.com/it-it/product/EP0238-CUSA12398_00-THEFOREST0000000",
@@ -2122,20 +2180,21 @@
       },
       {
         "kind": "product",
-        "id": "UP8597-PPSA23281_00-0258217052011846",
-        "name": "IXION",
-        "url": "https://store.playstation.com/it-it/product/UP8597-PPSA23281_00-0258217052011846",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202406/1110/601f0d8fddadc3c8a2839d375ba166fd724d4b69cd2ba119.png",
+        "id": "EP3969-PPSA01769_00-0000000000000WOA",
+        "name": "HITMAN World of Assassination",
+        "url": "https://store.playstation.com/it-it/product/EP3969-PPSA01769_00-0000000000000WOA",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2311/b8eef1ed41e1a72df5174894082790fd23a115e6fe73eaf2.png",
         "platforms": [
+          "PS4",
           "PS5"
         ],
-        "classification": "FULL_GAME",
-        "priceCents": 1224,
-        "basePriceCents": 3499,
-        "discountPct": 65,
+        "classification": "GAME_BUNDLE",
+        "priceCents": 2799,
+        "basePriceCents": 6999,
+        "discountPct": 60,
         "plusTier": null,
         "productIds": [
-          "UP8597-PPSA23281_00-0258217052011846"
+          "EP3969-PPSA01769_00-0000000000000WOA"
         ],
         "gameId": null
       },
@@ -2155,26 +2214,6 @@
         "plusTier": null,
         "productIds": [
           "EP2154-CUSA04865_00-GANGBEASTSPS04EU"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
-        "id": "EP3969-PPSA01769_00-0000000000000WOA",
-        "name": "HITMAN World of Assassination",
-        "url": "https://store.playstation.com/it-it/product/EP3969-PPSA01769_00-0000000000000WOA",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2311/b8eef1ed41e1a72df5174894082790fd23a115e6fe73eaf2.png",
-        "platforms": [
-          "PS4",
-          "PS5"
-        ],
-        "classification": "GAME_BUNDLE",
-        "priceCents": 2799,
-        "basePriceCents": 6999,
-        "discountPct": 60,
-        "plusTier": null,
-        "productIds": [
-          "EP3969-PPSA01769_00-0000000000000WOA"
         ],
         "gameId": null
       },
@@ -2392,26 +2431,6 @@
       },
       {
         "kind": "product",
-        "id": "EP1457-PPSA04135_00-MB2BANNERLORD000",
-        "name": "Mount & Blade II: Bannerlord",
-        "url": "https://store.playstation.com/it-it/product/EP1457-PPSA04135_00-MB2BANNERLORD000",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1215/AMVfKw3yLtykL3sMzhUQItMT.png",
-        "platforms": [
-          "PS4",
-          "PS5"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 2499,
-        "basePriceCents": 4999,
-        "discountPct": 50,
-        "plusTier": null,
-        "productIds": [
-          "EP1457-PPSA04135_00-MB2BANNERLORD000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP1549-PPSA25778_00-CLABSCBP20240828",
         "name": "Contraband Police",
         "url": "https://store.playstation.com/it-it/product/EP1549-PPSA25778_00-CLABSCBP20240828",
@@ -2522,26 +2541,6 @@
         "plusTier": null,
         "productIds": [
           "EP0101-CUSA05597_00-MAINGAME00000000"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
-        "id": "EP7028-PPSA03596_00-AMONGUS5SIEE0001",
-        "name": "Among Us",
-        "url": "https://store.playstation.com/it-it/product/EP7028-PPSA03596_00-AMONGUS5SIEE0001",
-        "coverUrl": "https://image.api.playstation.com/vulcan/img/rnd/202107/0115/D5IIJwm65MLMPENwWzzO7rjd.png",
-        "platforms": [
-          "PS4",
-          "PS5"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 239,
-        "basePriceCents": 399,
-        "discountPct": 40,
-        "plusTier": null,
-        "productIds": [
-          "EP7028-PPSA03596_00-AMONGUS5SIEE0001"
         ],
         "gameId": null
       },
@@ -2871,25 +2870,6 @@
       },
       {
         "kind": "product",
-        "id": "UP8634-PPSA23300_00-0097358964792948",
-        "name": "Escape the Backrooms",
-        "url": "https://store.playstation.com/it-it/product/UP8634-PPSA23300_00-0097358964792948",
-        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1210/cb750c3d22769dc9b93b0ea019851df9f224bb9d80d657d1.png",
-        "platforms": [
-          "PS5"
-        ],
-        "classification": "FULL_GAME",
-        "priceCents": 1039,
-        "basePriceCents": 1299,
-        "discountPct": 20,
-        "plusTier": null,
-        "productIds": [
-          "UP8634-PPSA23300_00-0097358964792948"
-        ],
-        "gameId": null
-      },
-      {
-        "kind": "product",
         "id": "EP4837-PPSA28824_00-0VALHEIMBASEGAME",
         "name": "Valheim",
         "url": "https://store.playstation.com/it-it/product/EP4837-PPSA28824_00-0VALHEIMBASEGAME",
@@ -2904,6 +2884,25 @@
         "plusTier": "Premium",
         "productIds": [
           "EP4837-PPSA28824_00-0VALHEIMBASEGAME"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "UP8634-PPSA23300_00-0097358964792948",
+        "name": "Escape the Backrooms",
+        "url": "https://store.playstation.com/it-it/product/UP8634-PPSA23300_00-0097358964792948",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1210/cb750c3d22769dc9b93b0ea019851df9f224bb9d80d657d1.png",
+        "platforms": [
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 1039,
+        "basePriceCents": 1299,
+        "discountPct": 20,
+        "plusTier": null,
+        "productIds": [
+          "UP8634-PPSA23300_00-0097358964792948"
         ],
         "gameId": null
       },
@@ -2980,6 +2979,26 @@
         "plusTier": "Ulteriore risparmio del 5%",
         "productIds": [
           "EB2397-PPSA38089_00-0523967720377015"
+        ],
+        "gameId": null
+      },
+      {
+        "kind": "product",
+        "id": "EP3945-PPSA25417_00-0151588138518854",
+        "name": "Dog Man: Mission Impawsible",
+        "url": "https://store.playstation.com/it-it/product/EP3945-PPSA25417_00-0151588138518854",
+        "coverUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202409/2712/d18e8e8524e950d00f46dc468d0ed53e6a749c041d93050e.png",
+        "platforms": [
+          "PS4",
+          "PS5"
+        ],
+        "classification": "FULL_GAME",
+        "priceCents": 2489,
+        "basePriceCents": 2999,
+        "discountPct": 17,
+        "plusTier": "Ulteriore risparmio del 5%",
+        "productIds": [
+          "EP3945-PPSA25417_00-0151588138518854"
         ],
         "gameId": null
       },
